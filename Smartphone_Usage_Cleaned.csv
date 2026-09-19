@@ -1,0 +1,1001 @@
+User_ID,Age,Age_Group,Gender,Location,Daily_Screen_Time_Hours,Screen_Time_Band,Total_App_Usage_Hours,Number_of_Apps_Used,Social_Media_Usage_Hours,Productivity_App_Usage_Hours,Gaming_App_Usage_Hours,Category_Total_Hours,Top_Category,Social_Share_Pct,Productivity_Share_Pct,Gaming_Share_Pct,Flag_App_Hours_Exceed_Screen,Flag_Category_Hours_Exceed_App,Data_Quality
+1,56,55+,Male,Los Angeles,7.15,High (7-10h),2.61,24,4.43,0.55,2.4,7.38,Social,60.0,7.5,32.5,0,1,Check
+2,46,45-54,Male,Chicago,13.79,Very high (10h+),2.13,18,4.67,4.42,2.43,11.52,Social,40.5,38.4,21.1,0,1,Check
+3,32,25-34,Female,Houston,4.5,Moderate (4-7h),7.28,11,4.58,1.71,2.83,9.12,Social,50.2,18.8,31.0,1,1,Check
+4,25,25-34,Female,Phoenix,6.29,Moderate (4-7h),1.2,21,3.18,3.42,4.58,11.18,Gaming,28.4,30.6,41.0,0,1,Check
+5,38,35-44,Male,New York,12.59,Very high (10h+),6.31,14,3.15,0.13,4.0,7.28,Gaming,43.3,1.8,54.9,0,1,Check
+6,56,55+,Female,Chicago,1.04,Light (<4h),3.31,21,2.02,3.45,2.26,7.73,Productivity,26.1,44.6,29.2,1,1,Check
+7,36,35-44,Male,Los Angeles,1.52,Light (<4h),4.81,24,3.76,1.58,3.59,8.93,Social,42.1,17.7,40.2,1,1,Check
+8,40,35-44,Male,Chicago,8.85,High (7-10h),9.53,11,2.66,0.28,2.93,5.87,Gaming,45.3,4.8,49.9,1,0,Check
+9,28,25-34,Male,Phoenix,12.8,Very high (10h+),11.35,9,3.39,3.05,2.46,8.9,Social,38.1,34.3,27.6,0,0,Consistent
+10,28,25-34,Male,New York,4.11,Moderate (4-7h),1.8,16,2.14,1.2,0.96,4.3,Social,49.8,27.9,22.3,0,1,Check
+11,41,35-44,Female,Chicago,7.11,High (7-10h),6.88,21,3.66,1.93,2.32,7.91,Social,46.3,24.4,29.3,0,1,Check
+12,53,45-54,Female,Phoenix,6.86,Moderate (4-7h),10.71,21,4.12,0.4,1.23,5.75,Social,71.7,7.0,21.4,1,0,Check
+13,57,55+,Female,Los Angeles,7.15,High (7-10h),1.91,4,0.73,0.74,4.57,6.04,Gaming,12.1,12.3,75.7,0,1,Check
+14,41,35-44,Male,Houston,9.09,High (7-10h),10.07,11,4.16,1.49,1.68,7.33,Social,56.8,20.3,22.9,1,0,Check
+15,20,18-24,Male,Los Angeles,7.11,High (7-10h),4.94,15,2.7,0.45,4.76,7.91,Gaming,34.1,5.7,60.2,0,1,Check
+16,39,35-44,Male,New York,6.82,Moderate (4-7h),4.54,17,4.22,4.55,2.67,11.44,Productivity,36.9,39.8,23.3,0,1,Check
+17,19,18-24,Female,Los Angeles,7.17,High (7-10h),11.75,5,2.16,0.03,3.16,5.35,Gaming,40.4,0.6,59.1,1,0,Check
+18,41,35-44,Male,Los Angeles,8.68,High (7-10h),3.21,13,1.9,2.42,2.71,7.03,Gaming,27.0,34.4,38.5,0,1,Check
+19,47,45-54,Female,Los Angeles,7.98,High (7-10h),8.63,23,4.58,0.62,0.65,5.85,Social,78.3,10.6,11.1,1,0,Check
+20,55,55+,Female,Los Angeles,12.1,Very high (10h+),10.04,16,1.26,1.54,1.88,4.68,Gaming,26.9,32.9,40.2,0,0,Consistent
+21,19,18-24,Female,New York,1.64,Light (<4h),1.45,27,4.22,4.63,0.5,9.35,Productivity,45.1,49.5,5.3,0,1,Check
+22,38,35-44,Female,Phoenix,11.83,Very high (10h+),8.37,10,2.42,0.81,3.11,6.34,Gaming,38.2,12.8,49.1,0,0,Consistent
+23,50,45-54,Female,Chicago,11.97,Very high (10h+),11.47,20,2.57,4.83,2.23,9.63,Productivity,26.7,50.2,23.2,0,0,Consistent
+24,29,25-34,Female,Houston,4.7,Moderate (4-7h),2.37,21,1.54,1.03,3.89,6.46,Gaming,23.8,15.9,60.2,0,1,Check
+25,39,35-44,Male,Chicago,7.02,High (7-10h),10.86,18,2.87,3.71,1.1,7.68,Productivity,37.4,48.3,14.3,1,0,Check
+26,42,35-44,Male,Chicago,6.7,Moderate (4-7h),7.54,4,1.63,2.73,0.82,5.18,Productivity,31.5,52.7,15.8,1,0,Check
+27,44,35-44,Female,Houston,3.84,Light (<4h),7.78,10,0.2,4.42,2.03,6.65,Productivity,3.0,66.5,30.5,1,0,Check
+28,59,55+,Female,New York,6.16,Moderate (4-7h),7.74,24,1.36,2.77,4.63,8.76,Gaming,15.5,31.6,52.9,1,1,Check
+29,45,45-54,Male,Houston,1.58,Light (<4h),4.29,8,0.03,2.67,3.55,6.25,Gaming,0.5,42.7,56.8,1,1,Check
+30,33,25-34,Female,New York,4.61,Moderate (4-7h),11.29,14,4.89,0.98,2.09,7.96,Social,61.4,12.3,26.3,1,0,Check
+31,32,25-34,Female,Chicago,11.62,Very high (10h+),11.42,17,4.83,0.83,2.59,8.25,Social,58.5,10.1,31.4,0,0,Consistent
+32,20,18-24,Male,New York,4.7,Moderate (4-7h),7.88,27,1.98,4.58,0.42,6.98,Productivity,28.4,65.6,6.0,1,0,Check
+33,54,45-54,Female,Phoenix,11.64,Very high (10h+),9.62,10,3.64,1.64,4.92,10.2,Gaming,35.7,16.1,48.2,0,1,Check
+34,24,18-24,Female,Houston,7.91,High (7-10h),7.73,6,1.73,1.86,3.33,6.92,Gaming,25.0,26.9,48.1,0,0,Consistent
+35,38,35-44,Female,Phoenix,12.44,Very high (10h+),6.33,17,3.36,3.8,1.43,8.59,Productivity,39.1,44.2,16.6,0,1,Check
+36,26,25-34,Male,Chicago,8.47,High (7-10h),8.27,22,4.03,1.69,2.93,8.65,Social,46.6,19.5,33.9,0,1,Check
+37,56,55+,Male,Houston,1.39,Light (<4h),7.08,27,4.73,4.76,0.55,10.04,Productivity,47.1,47.4,5.5,1,1,Check
+38,35,35-44,Male,Chicago,9.78,High (7-10h),7.57,19,2.0,3.69,4.83,10.52,Gaming,19.0,35.1,45.9,0,1,Check
+39,21,18-24,Female,Phoenix,1.58,Light (<4h),9.62,15,3.92,2.99,0.87,7.78,Social,50.4,38.4,11.2,1,0,Check
+40,42,35-44,Female,Chicago,6.86,Moderate (4-7h),6.29,20,1.33,4.4,3.24,8.97,Productivity,14.8,49.1,36.1,0,1,Check
+41,31,25-34,Male,Houston,13.08,Very high (10h+),1.45,4,4.95,0.25,1.23,6.43,Social,77.0,3.9,19.1,0,1,Check
+42,26,25-34,Female,Houston,3.15,Light (<4h),2.8,15,0.13,1.29,3.59,5.01,Gaming,2.6,25.7,71.7,0,1,Check
+43,43,35-44,Female,Chicago,6.07,Moderate (4-7h),5.82,15,3.02,2.33,3.88,9.23,Gaming,32.7,25.2,42.0,0,1,Check
+44,19,18-24,Female,Houston,10.49,Very high (10h+),8.97,24,3.3,1.13,3.37,7.8,Gaming,42.3,14.5,43.2,0,0,Consistent
+45,37,35-44,Female,Houston,12.47,Very high (10h+),7.53,17,3.44,3.72,3.07,10.23,Productivity,33.6,36.4,30.0,0,1,Check
+46,45,45-54,Female,Chicago,9.72,High (7-10h),8.15,22,0.6,4.6,4.46,9.66,Productivity,6.2,47.6,46.2,0,1,Check
+47,24,18-24,Male,Phoenix,4.36,Moderate (4-7h),6.27,29,4.69,2.12,0.39,7.2,Social,65.1,29.4,5.4,1,1,Check
+48,25,25-34,Female,Houston,9.77,High (7-10h),7.77,12,0.91,1.71,1.65,4.27,Productivity,21.3,40.0,38.6,0,0,Consistent
+49,52,45-54,Male,Houston,4.86,Moderate (4-7h),4.62,5,3.11,4.81,1.24,9.16,Productivity,34.0,52.5,13.5,0,1,Check
+50,31,25-34,Female,Houston,10.34,Very high (10h+),6.17,21,1.11,2.22,4.94,8.27,Gaming,13.4,26.8,59.7,0,1,Check
+51,34,25-34,Male,Houston,13.4,Very high (10h+),9.19,5,1.54,2.45,1.95,5.94,Productivity,25.9,41.2,32.8,0,0,Consistent
+52,53,45-54,Female,Chicago,10.38,Very high (10h+),10.59,24,2.73,1.76,3.66,8.15,Gaming,33.5,21.6,44.9,1,0,Check
+53,57,55+,Male,Phoenix,12.22,Very high (10h+),5.77,16,2.09,4.55,3.42,10.06,Productivity,20.8,45.2,34.0,0,1,Check
+54,21,18-24,Female,Phoenix,1.03,Light (<4h),1.48,10,0.8,2.84,1.06,4.7,Productivity,17.0,60.4,22.6,1,1,Check
+55,19,18-24,Male,New York,10.33,Very high (10h+),2.78,29,0.85,3.81,1.19,5.85,Productivity,14.5,65.1,20.3,0,1,Check
+56,23,18-24,Female,Houston,11.78,Very high (10h+),1.23,25,2.09,4.06,1.41,7.56,Productivity,27.6,53.7,18.7,0,1,Check
+57,59,55+,Male,Houston,1.53,Light (<4h),8.19,6,3.79,1.71,2.06,7.56,Social,50.1,22.6,27.2,1,0,Check
+58,21,18-24,Female,New York,12.33,Very high (10h+),4.66,29,4.49,2.17,1.17,7.83,Social,57.3,27.7,14.9,0,1,Check
+59,46,45-54,Male,Phoenix,4.34,Moderate (4-7h),6.97,22,0.42,4.24,0.1,4.76,Productivity,8.8,89.1,2.1,1,0,Check
+60,35,35-44,Male,Los Angeles,9.65,High (7-10h),6.43,13,1.97,1.82,4.4,8.19,Gaming,24.1,22.2,53.7,0,1,Check
+61,43,35-44,Female,Los Angeles,11.4,Very high (10h+),1.9,28,0.5,3.97,4.83,9.3,Gaming,5.4,42.7,51.9,0,1,Check
+62,51,45-54,Female,Phoenix,9.61,High (7-10h),5.44,13,0.08,4.7,1.71,6.49,Productivity,1.2,72.4,26.3,0,1,Check
+63,27,25-34,Male,Houston,2.2,Light (<4h),3.43,29,3.31,3.12,1.69,8.12,Social,40.8,38.4,20.8,1,1,Check
+64,53,45-54,Female,Los Angeles,8.75,High (7-10h),5.6,13,3.01,3.71,0.04,6.76,Productivity,44.5,54.9,0.6,0,1,Check
+65,31,25-34,Male,Chicago,8.14,High (7-10h),3.24,4,0.82,4.03,3.4,8.25,Productivity,9.9,48.8,41.2,0,1,Check
+66,48,45-54,Male,Chicago,12.7,Very high (10h+),10.24,19,1.17,4.23,4.13,9.53,Productivity,12.3,44.4,43.3,0,0,Consistent
+67,32,25-34,Male,New York,6.26,Moderate (4-7h),2.92,11,0.12,1.98,0.73,2.83,Productivity,4.2,70.0,25.8,0,0,Consistent
+68,25,25-34,Female,Phoenix,5.17,Moderate (4-7h),11.57,4,4.17,0.26,0.8,5.23,Social,79.7,5.0,15.3,1,0,Check
+69,31,25-34,Male,Phoenix,10.75,Very high (10h+),5.57,26,4.87,2.01,3.95,10.83,Social,45.0,18.6,36.5,0,1,Check
+70,40,35-44,Male,Los Angeles,6.36,Moderate (4-7h),10.31,17,0.68,3.37,3.08,7.13,Productivity,9.5,47.3,43.2,1,0,Check
+71,57,55+,Female,Houston,9.4,High (7-10h),7.92,18,1.16,2.25,0.22,3.63,Productivity,32.0,62.0,6.1,0,0,Consistent
+72,38,35-44,Female,Phoenix,9.4,High (7-10h),9.09,27,4.34,3.74,3.11,11.19,Social,38.8,33.4,27.8,0,1,Check
+73,33,25-34,Female,Los Angeles,12.54,Very high (10h+),9.44,6,4.63,1.78,1.54,7.95,Social,58.2,22.4,19.4,0,0,Consistent
+74,35,35-44,Female,Los Angeles,8.78,High (7-10h),6.55,10,2.1,3.17,1.84,7.11,Productivity,29.5,44.6,25.9,0,1,Check
+75,41,35-44,Male,Phoenix,7.53,High (7-10h),6.98,11,0.25,0.93,3.85,5.03,Gaming,5.0,18.5,76.5,0,0,Consistent
+76,43,35-44,Male,Los Angeles,2.81,Light (<4h),6.65,28,0.2,3.75,4.05,8.0,Gaming,2.5,46.9,50.6,1,1,Check
+77,42,35-44,Male,New York,2.5,Light (<4h),7.47,28,2.87,2.73,2.0,7.6,Social,37.8,35.9,26.3,1,1,Check
+78,58,55+,Male,New York,3.01,Light (<4h),1.32,7,1.96,1.02,4.74,7.72,Gaming,25.4,13.2,61.4,0,1,Check
+79,46,45-54,Female,Phoenix,3.23,Light (<4h),5.35,18,0.14,1.46,2.03,3.63,Gaming,3.9,40.2,55.9,1,0,Check
+80,32,25-34,Male,Houston,9.29,High (7-10h),7.67,15,2.92,3.74,3.86,10.52,Gaming,27.8,35.6,36.7,0,1,Check
+81,18,18-24,Male,New York,10.63,Very high (10h+),7.57,9,0.06,2.41,2.42,4.89,Gaming,1.2,49.3,49.5,0,0,Consistent
+82,42,35-44,Female,New York,7.89,High (7-10h),9.72,28,3.94,1.08,4.49,9.51,Gaming,41.4,11.4,47.2,1,0,Check
+83,24,18-24,Male,Phoenix,11.78,Very high (10h+),8.21,22,1.53,4.84,4.54,10.91,Productivity,14.0,44.4,41.6,0,1,Check
+84,26,25-34,Male,Chicago,13.89,Very high (10h+),11.91,19,0.2,3.58,0.44,4.22,Productivity,4.7,84.8,10.4,0,0,Consistent
+85,41,35-44,Male,Los Angeles,11.66,Very high (10h+),4.12,5,2.94,4.79,4.68,12.41,Productivity,23.7,38.6,37.7,0,1,Check
+86,18,18-24,Male,New York,10.03,Very high (10h+),4.95,7,1.99,2.14,4.13,8.26,Gaming,24.1,25.9,50.0,0,1,Check
+87,25,25-34,Male,Chicago,7.92,High (7-10h),5.22,21,4.87,2.38,3.96,11.21,Social,43.4,21.2,35.3,0,1,Check
+88,41,35-44,Male,Houston,6.84,Moderate (4-7h),6.12,14,2.72,4.49,1.0,8.21,Productivity,33.1,54.7,12.2,0,1,Check
+89,28,25-34,Female,Chicago,2.1,Light (<4h),10.2,29,1.38,2.63,4.03,8.04,Gaming,17.2,32.7,50.1,1,0,Check
+90,34,25-34,Female,Phoenix,6.19,Moderate (4-7h),3.59,9,3.55,3.54,4.25,11.34,Gaming,31.3,31.2,37.5,0,1,Check
+91,25,25-34,Male,Houston,12.83,Very high (10h+),9.54,11,1.36,1.26,1.45,4.07,Gaming,33.4,31.0,35.6,0,0,Consistent
+92,52,45-54,Male,Houston,11.5,Very high (10h+),5.46,8,4.52,2.23,4.76,11.51,Gaming,39.3,19.4,41.4,0,1,Check
+93,52,45-54,Female,Chicago,3.81,Light (<4h),7.62,28,1.87,0.62,0.25,2.74,Social,68.2,22.6,9.1,1,0,Check
+94,50,45-54,Male,Phoenix,7.07,High (7-10h),7.96,19,2.75,1.03,0.75,4.53,Social,60.7,22.7,16.6,1,0,Check
+95,22,18-24,Male,New York,11.62,Very high (10h+),5.1,18,0.25,0.0,2.69,2.94,Gaming,8.5,0.0,91.5,0,0,Consistent
+96,59,55+,Male,Chicago,1.88,Light (<4h),6.64,25,2.13,0.2,2.88,5.21,Gaming,40.9,3.8,55.3,1,0,Check
+97,56,55+,Female,New York,6.04,Moderate (4-7h),5.54,5,4.16,4.89,3.23,12.28,Productivity,33.9,39.8,26.3,0,1,Check
+98,58,55+,Male,Chicago,12.07,Very high (10h+),1.76,23,4.03,1.21,0.08,5.32,Social,75.8,22.7,1.5,0,1,Check
+99,45,45-54,Female,New York,6.25,Moderate (4-7h),5.81,28,1.12,3.32,4.8,9.24,Gaming,12.1,35.9,51.9,0,1,Check
+100,24,18-24,Male,Chicago,2.01,Light (<4h),2.07,6,1.13,4.2,0.22,5.55,Productivity,20.4,75.7,4.0,1,1,Check
+101,26,25-34,Female,Houston,8.05,High (7-10h),5.46,12,4.09,2.75,0.72,7.56,Social,54.1,36.4,9.5,0,1,Check
+102,25,25-34,Female,Los Angeles,12.2,Very high (10h+),7.52,7,4.65,0.77,0.07,5.49,Social,84.7,14.0,1.3,0,0,Consistent
+103,29,25-34,Male,Houston,8.67,High (7-10h),7.37,23,0.48,3.64,2.83,6.95,Productivity,6.9,52.4,40.7,0,0,Consistent
+104,51,45-54,Female,New York,3.94,Light (<4h),8.29,24,2.25,3.0,4.66,9.91,Gaming,22.7,30.3,47.0,1,1,Check
+105,50,45-54,Male,Phoenix,6.0,Moderate (4-7h),2.05,12,1.69,3.66,3.33,8.68,Productivity,19.5,42.2,38.4,0,1,Check
+106,40,35-44,Female,Houston,6.85,Moderate (4-7h),8.17,14,4.35,3.85,4.11,12.31,Social,35.3,31.3,33.4,1,1,Check
+107,41,35-44,Male,Los Angeles,8.53,High (7-10h),4.43,12,0.42,4.88,0.07,5.37,Productivity,7.8,90.9,1.3,0,1,Check
+108,54,45-54,Male,New York,10.87,Very high (10h+),5.39,15,1.06,2.87,2.71,6.64,Productivity,16.0,43.2,40.8,0,1,Check
+109,52,45-54,Female,Houston,2.29,Light (<4h),10.44,13,3.76,1.71,2.3,7.77,Social,48.4,22.0,29.6,1,0,Check
+110,57,55+,Male,Chicago,12.57,Very high (10h+),1.1,24,0.26,3.24,2.49,5.99,Productivity,4.3,54.1,41.6,0,1,Check
+111,39,35-44,Male,Phoenix,1.16,Light (<4h),7.47,18,2.46,0.34,0.36,3.16,Social,77.8,10.8,11.4,1,0,Check
+112,44,35-44,Female,New York,5.81,Moderate (4-7h),7.59,10,2.21,4.49,3.42,10.12,Productivity,21.8,44.4,33.8,1,1,Check
+113,52,45-54,Male,Houston,1.36,Light (<4h),5.36,10,1.67,0.6,2.52,4.79,Gaming,34.9,12.5,52.6,1,0,Check
+114,18,18-24,Male,New York,6.11,Moderate (4-7h),3.61,29,1.97,1.64,3.83,7.44,Gaming,26.5,22.0,51.5,0,1,Check
+115,52,45-54,Female,Chicago,7.84,High (7-10h),3.58,27,2.65,4.08,2.43,9.16,Productivity,28.9,44.5,26.5,0,1,Check
+116,54,45-54,Female,Los Angeles,7.65,High (7-10h),10.72,10,0.81,2.99,0.75,4.55,Productivity,17.8,65.7,16.5,1,0,Check
+117,31,25-34,Male,Houston,3.15,Light (<4h),5.86,15,2.86,1.97,3.24,8.07,Gaming,35.4,24.4,40.1,1,1,Check
+118,20,18-24,Male,New York,9.39,High (7-10h),4.64,29,4.03,2.37,0.86,7.26,Social,55.5,32.6,11.8,0,1,Check
+119,18,18-24,Female,New York,1.58,Light (<4h),5.94,4,3.8,4.27,4.36,12.43,Gaming,30.6,34.4,35.1,1,1,Check
+120,22,18-24,Female,New York,10.9,Very high (10h+),8.36,14,0.77,1.7,3.07,5.54,Gaming,13.9,30.7,55.4,0,0,Consistent
+121,43,35-44,Male,Los Angeles,13.31,Very high (10h+),2.6,12,0.75,4.35,0.79,5.89,Productivity,12.7,73.9,13.4,0,1,Check
+122,31,25-34,Female,New York,5.42,Moderate (4-7h),5.94,14,1.34,0.44,4.81,6.59,Gaming,20.3,6.7,73.0,1,1,Check
+123,56,55+,Male,Phoenix,7.72,High (7-10h),7.47,13,1.81,3.88,2.59,8.28,Productivity,21.9,46.9,31.3,0,1,Check
+124,44,35-44,Male,Phoenix,5.93,Moderate (4-7h),11.43,17,2.04,4.24,0.36,6.64,Productivity,30.7,63.9,5.4,1,0,Check
+125,26,25-34,Male,New York,1.09,Light (<4h),3.78,18,3.4,0.91,3.13,7.44,Social,45.7,12.2,42.1,1,1,Check
+126,32,25-34,Male,Phoenix,6.02,Moderate (4-7h),4.95,19,0.28,2.15,1.27,3.7,Productivity,7.6,58.1,34.3,0,0,Consistent
+127,32,25-34,Male,Houston,11.29,Very high (10h+),5.17,28,0.17,0.83,4.02,5.02,Gaming,3.4,16.5,80.1,0,0,Consistent
+128,43,35-44,Female,Phoenix,8.75,High (7-10h),7.66,4,1.96,3.53,4.09,9.58,Gaming,20.5,36.8,42.7,0,1,Check
+129,59,55+,Female,New York,2.32,Light (<4h),4.92,20,3.49,2.68,4.89,11.06,Gaming,31.6,24.2,44.2,1,1,Check
+130,30,25-34,Female,Chicago,12.01,Very high (10h+),6.87,14,0.97,3.18,2.51,6.66,Productivity,14.6,47.7,37.7,0,0,Consistent
+131,49,45-54,Female,Houston,7.9,High (7-10h),9.6,21,3.21,0.98,2.27,6.46,Social,49.7,15.2,35.1,1,0,Check
+132,56,55+,Male,Los Angeles,11.94,Very high (10h+),8.76,28,1.3,1.06,3.77,6.13,Gaming,21.2,17.3,61.5,0,0,Consistent
+133,49,45-54,Male,New York,8.54,High (7-10h),5.91,25,4.43,0.21,0.66,5.3,Social,83.6,4.0,12.5,0,0,Consistent
+134,21,18-24,Male,Los Angeles,8.28,High (7-10h),10.51,20,4.48,1.61,2.73,8.82,Social,50.8,18.3,31.0,1,0,Check
+135,47,45-54,Male,Chicago,2.37,Light (<4h),7.14,19,1.49,2.8,2.73,7.02,Productivity,21.2,39.9,38.9,1,0,Check
+136,54,45-54,Female,Los Angeles,3.18,Light (<4h),6.94,8,1.15,4.29,0.45,5.89,Productivity,19.5,72.8,7.6,1,0,Check
+137,40,35-44,Male,New York,13.64,Very high (10h+),1.38,27,2.06,3.33,2.09,7.48,Productivity,27.5,44.5,27.9,0,1,Check
+138,56,55+,Male,New York,3.97,Light (<4h),11.85,17,1.2,2.18,4.27,7.65,Gaming,15.7,28.5,55.8,1,0,Check
+139,32,25-34,Female,Chicago,13.71,Very high (10h+),2.35,5,3.36,4.77,4.28,12.41,Productivity,27.1,38.4,34.5,0,1,Check
+140,46,45-54,Female,New York,7.91,High (7-10h),3.54,8,4.13,3.6,0.5,8.23,Social,50.2,43.7,6.1,0,1,Check
+141,53,45-54,Female,Chicago,2.77,Light (<4h),1.57,5,3.37,4.65,0.45,8.47,Productivity,39.8,54.9,5.3,0,1,Check
+142,30,25-34,Female,Chicago,2.29,Light (<4h),8.04,3,4.12,2.64,1.31,8.07,Social,51.1,32.7,16.2,1,1,Check
+143,49,45-54,Male,New York,3.72,Light (<4h),3.47,15,1.98,1.29,4.37,7.64,Gaming,25.9,16.9,57.2,0,1,Check
+144,24,18-24,Male,Phoenix,13.03,Very high (10h+),2.98,23,0.78,0.26,0.64,1.68,Social,46.4,15.5,38.1,0,0,Consistent
+145,39,35-44,Female,Chicago,6.38,Moderate (4-7h),1.97,28,3.69,3.63,3.6,10.92,Social,33.8,33.2,33.0,0,1,Check
+146,45,45-54,Male,New York,6.14,Moderate (4-7h),2.14,16,1.8,0.61,0.51,2.92,Social,61.6,20.9,17.5,0,1,Check
+147,19,18-24,Male,Phoenix,5.07,Moderate (4-7h),7.43,15,3.36,1.51,3.12,7.99,Social,42.1,18.9,39.0,1,1,Check
+148,59,55+,Male,Chicago,2.91,Light (<4h),8.57,29,1.35,2.66,1.78,5.79,Productivity,23.3,45.9,30.7,1,0,Check
+149,23,18-24,Female,Phoenix,7.34,High (7-10h),5.37,6,0.41,2.82,3.94,7.17,Gaming,5.7,39.3,55.0,0,1,Check
+150,45,45-54,Male,Houston,2.69,Light (<4h),6.28,9,4.96,3.0,1.17,9.13,Social,54.3,32.9,12.8,1,1,Check
+151,45,45-54,Female,Houston,11.86,Very high (10h+),8.55,24,0.78,0.83,3.2,4.81,Gaming,16.2,17.3,66.5,0,0,Consistent
+152,37,35-44,Male,Phoenix,5.82,Moderate (4-7h),1.19,12,4.94,1.9,1.18,8.02,Social,61.6,23.7,14.7,0,1,Check
+153,47,45-54,Male,Chicago,5.87,Moderate (4-7h),4.55,9,4.89,3.09,3.57,11.55,Social,42.3,26.8,30.9,0,1,Check
+154,28,25-34,Male,New York,7.16,High (7-10h),11.7,23,3.97,4.85,4.37,13.19,Productivity,30.1,36.8,33.1,1,1,Check
+155,45,45-54,Female,Los Angeles,6.77,Moderate (4-7h),7.38,17,3.3,3.64,0.63,7.57,Productivity,43.6,48.1,8.3,1,1,Check
+156,42,35-44,Male,New York,13.93,Very high (10h+),3.8,17,2.89,4.61,4.33,11.83,Productivity,24.4,39.0,36.6,0,1,Check
+157,56,55+,Female,Los Angeles,8.09,High (7-10h),6.74,6,4.33,3.81,2.97,11.11,Social,39.0,34.3,26.7,0,1,Check
+158,50,45-54,Female,Los Angeles,2.15,Light (<4h),4.77,25,1.45,2.96,0.64,5.05,Productivity,28.7,58.6,12.7,1,1,Check
+159,18,18-24,Female,Chicago,8.89,High (7-10h),6.85,25,2.34,0.96,2.14,5.44,Social,43.0,17.6,39.3,0,0,Consistent
+160,44,35-44,Male,Phoenix,2.97,Light (<4h),2.38,8,3.1,3.33,0.8,7.23,Productivity,42.9,46.1,11.1,0,1,Check
+161,30,25-34,Male,New York,1.4,Light (<4h),2.46,26,2.06,3.12,3.5,8.68,Gaming,23.7,35.9,40.3,1,1,Check
+162,58,55+,Male,Phoenix,13.62,Very high (10h+),2.58,22,2.14,3.01,3.79,8.94,Gaming,23.9,33.7,42.4,0,1,Check
+163,20,18-24,Male,Houston,11.06,Very high (10h+),11.34,28,1.65,2.45,0.53,4.63,Productivity,35.6,52.9,11.4,1,0,Check
+164,56,55+,Female,Chicago,13.74,Very high (10h+),9.06,7,2.82,2.64,2.53,7.99,Social,35.3,33.0,31.7,0,0,Consistent
+165,23,18-24,Female,Chicago,7.21,High (7-10h),2.79,22,4.25,1.67,4.07,9.99,Social,42.5,16.7,40.7,0,1,Check
+166,25,25-34,Female,Houston,7.92,High (7-10h),3.07,14,1.01,2.6,4.68,8.29,Gaming,12.2,31.4,56.5,0,1,Check
+167,44,35-44,Male,New York,3.19,Light (<4h),9.04,3,4.67,0.99,2.57,8.23,Social,56.7,12.0,31.2,1,0,Check
+168,26,25-34,Female,Houston,4.21,Moderate (4-7h),2.72,10,3.45,4.03,4.75,12.23,Gaming,28.2,33.0,38.8,0,1,Check
+169,54,45-54,Male,New York,11.9,Very high (10h+),3.58,3,4.12,0.93,2.68,7.73,Social,53.3,12.0,34.7,0,1,Check
+170,50,45-54,Female,Los Angeles,5.63,Moderate (4-7h),11.6,7,2.78,0.42,1.97,5.17,Social,53.8,8.1,38.1,1,0,Check
+171,59,55+,Male,Chicago,11.75,Very high (10h+),3.81,24,3.9,2.18,4.24,10.32,Gaming,37.8,21.1,41.1,0,1,Check
+172,41,35-44,Male,New York,10.22,Very high (10h+),8.28,8,0.08,3.29,2.46,5.83,Productivity,1.4,56.4,42.2,0,0,Consistent
+173,32,25-34,Female,Phoenix,3.3,Light (<4h),11.76,23,4.09,2.19,2.36,8.64,Social,47.3,25.3,27.3,1,0,Check
+174,49,45-54,Female,Phoenix,7.6,High (7-10h),5.12,5,0.2,1.38,2.45,4.03,Gaming,5.0,34.2,60.8,0,0,Consistent
+175,49,45-54,Female,Chicago,9.81,High (7-10h),1.19,17,4.45,2.79,4.23,11.47,Social,38.8,24.3,36.9,0,1,Check
+176,41,35-44,Female,Houston,4.06,Moderate (4-7h),3.69,7,4.96,1.74,4.16,10.86,Social,45.7,16.0,38.3,0,1,Check
+177,58,55+,Male,Houston,11.8,Very high (10h+),10.14,26,1.47,4.66,2.02,8.15,Productivity,18.0,57.2,24.8,0,0,Consistent
+178,29,25-34,Female,New York,8.08,High (7-10h),10.51,16,1.05,4.61,1.67,7.33,Productivity,14.3,62.9,22.8,1,0,Check
+179,56,55+,Female,Houston,3.15,Light (<4h),9.45,20,3.83,2.51,2.46,8.8,Social,43.5,28.5,28.0,1,0,Check
+180,19,18-24,Female,Chicago,8.58,High (7-10h),2.24,18,1.27,1.64,2.86,5.77,Gaming,22.0,28.4,49.6,0,1,Check
+181,20,18-24,Male,New York,14.0,Very high (10h+),9.75,8,4.33,3.69,1.19,9.21,Social,47.0,40.1,12.9,0,0,Consistent
+182,54,45-54,Male,Los Angeles,2.96,Light (<4h),11.11,27,0.51,0.18,3.97,4.66,Gaming,10.9,3.9,85.2,1,0,Check
+183,34,25-34,Female,Houston,11.62,Very high (10h+),7.61,26,0.63,2.37,2.43,5.43,Gaming,11.6,43.6,44.8,0,0,Consistent
+184,19,18-24,Male,Houston,3.7,Light (<4h),11.35,16,4.9,1.68,1.67,8.25,Social,59.4,20.4,20.2,1,0,Check
+185,19,18-24,Female,New York,11.17,Very high (10h+),10.1,29,3.37,4.6,0.53,8.5,Productivity,39.6,54.1,6.2,0,0,Consistent
+186,45,45-54,Male,Phoenix,10.55,Very high (10h+),8.34,26,4.23,0.06,1.19,5.48,Social,77.2,1.1,21.7,0,0,Consistent
+187,40,35-44,Male,Houston,4.91,Moderate (4-7h),7.35,10,1.62,2.76,4.75,9.13,Gaming,17.7,30.2,52.0,1,1,Check
+188,54,45-54,Male,Chicago,5.24,Moderate (4-7h),4.83,9,3.38,3.7,1.53,8.61,Productivity,39.3,43.0,17.8,0,1,Check
+189,49,45-54,Male,Houston,11.3,Very high (10h+),2.75,10,2.97,2.43,0.84,6.24,Social,47.6,38.9,13.5,0,1,Check
+190,50,45-54,Female,Los Angeles,7.0,High (7-10h),7.65,15,3.02,0.43,2.3,5.75,Social,52.5,7.5,40.0,1,0,Check
+191,18,18-24,Female,Houston,10.5,Very high (10h+),4.5,8,3.41,4.86,1.54,9.81,Productivity,34.8,49.5,15.7,0,1,Check
+192,36,35-44,Female,Phoenix,2.92,Light (<4h),10.53,20,2.88,2.59,0.18,5.65,Social,51.0,45.8,3.2,1,0,Check
+193,19,18-24,Male,Houston,12.08,Very high (10h+),11.93,4,2.15,3.07,1.62,6.84,Productivity,31.4,44.9,23.7,0,0,Consistent
+194,43,35-44,Female,New York,10.24,Very high (10h+),9.28,10,1.38,1.18,2.72,5.28,Gaming,26.1,22.3,51.5,0,0,Consistent
+195,49,45-54,Female,Houston,12.79,Very high (10h+),2.0,13,3.84,2.42,2.76,9.02,Social,42.6,26.8,30.6,0,1,Check
+196,23,18-24,Female,Phoenix,2.72,Light (<4h),4.18,3,1.13,2.15,1.78,5.06,Productivity,22.3,42.5,35.2,1,1,Check
+197,49,45-54,Male,New York,8.71,High (7-10h),2.2,24,3.46,0.37,2.24,6.07,Social,57.0,6.1,36.9,0,1,Check
+198,21,18-24,Male,Chicago,8.79,High (7-10h),8.16,8,1.17,0.53,4.83,6.53,Gaming,17.9,8.1,74.0,0,0,Consistent
+199,28,25-34,Male,New York,5.59,Moderate (4-7h),9.42,18,3.13,4.19,1.89,9.21,Productivity,34.0,45.5,20.5,1,0,Check
+200,34,25-34,Female,Los Angeles,6.96,Moderate (4-7h),11.18,29,3.74,1.2,1.29,6.23,Social,60.0,19.3,20.7,1,0,Check
+201,55,55+,Female,New York,1.49,Light (<4h),5.82,22,1.09,0.97,1.22,3.28,Gaming,33.2,29.6,37.2,1,0,Check
+202,41,35-44,Female,Chicago,10.7,Very high (10h+),10.92,14,0.3,2.52,2.29,5.11,Productivity,5.9,49.3,44.8,1,0,Check
+203,22,18-24,Male,Houston,8.14,High (7-10h),10.66,13,0.65,3.84,3.8,8.29,Productivity,7.8,46.3,45.8,1,0,Check
+204,51,45-54,Male,New York,1.75,Light (<4h),4.49,29,3.03,0.31,1.03,4.37,Social,69.3,7.1,23.6,1,0,Check
+205,23,18-24,Female,New York,9.85,High (7-10h),10.56,12,4.25,2.88,3.55,10.68,Social,39.8,27.0,33.2,1,1,Check
+206,39,35-44,Male,New York,7.07,High (7-10h),5.13,5,0.22,0.6,0.11,0.93,Productivity,23.7,64.5,11.8,0,0,Consistent
+207,28,25-34,Male,New York,1.45,Light (<4h),4.27,15,3.67,0.18,2.09,5.94,Social,61.8,3.0,35.2,1,1,Check
+208,33,25-34,Male,Chicago,13.6,Very high (10h+),8.14,29,1.71,0.26,3.88,5.85,Gaming,29.2,4.4,66.3,0,0,Consistent
+209,50,45-54,Male,Phoenix,13.34,Very high (10h+),4.61,5,2.39,4.17,1.69,8.25,Productivity,29.0,50.5,20.5,0,1,Check
+210,26,25-34,Female,Phoenix,7.67,High (7-10h),7.93,17,4.64,0.59,2.82,8.05,Social,57.6,7.3,35.0,1,1,Check
+211,23,18-24,Male,New York,2.22,Light (<4h),7.71,18,1.66,0.23,1.02,2.91,Social,57.0,7.9,35.1,1,0,Check
+212,33,25-34,Male,Chicago,10.81,Very high (10h+),7.2,15,2.33,2.19,3.71,8.23,Gaming,28.3,26.6,45.1,0,1,Check
+213,46,45-54,Male,Chicago,7.4,High (7-10h),5.18,19,0.07,4.22,0.26,4.55,Productivity,1.5,92.7,5.7,0,0,Consistent
+214,20,18-24,Male,New York,4.93,Moderate (4-7h),7.03,5,0.41,1.31,4.26,5.98,Gaming,6.9,21.9,71.2,1,0,Check
+215,37,35-44,Female,Los Angeles,7.39,High (7-10h),7.56,22,1.29,2.11,0.99,4.39,Productivity,29.4,48.1,22.6,1,0,Check
+216,53,45-54,Female,New York,7.79,High (7-10h),7.0,13,0.14,0.2,4.37,4.71,Gaming,3.0,4.2,92.8,0,0,Consistent
+217,36,35-44,Male,Los Angeles,8.32,High (7-10h),5.89,29,3.16,2.25,1.76,7.17,Social,44.1,31.4,24.5,0,1,Check
+218,43,35-44,Male,New York,6.74,Moderate (4-7h),1.16,23,2.13,2.89,3.61,8.63,Gaming,24.7,33.5,41.8,0,1,Check
+219,20,18-24,Male,Los Angeles,8.87,High (7-10h),7.46,21,2.74,2.85,1.6,7.19,Productivity,38.1,39.6,22.3,0,0,Consistent
+220,36,35-44,Male,Los Angeles,12.94,Very high (10h+),2.85,24,0.87,1.66,4.53,7.06,Gaming,12.3,23.5,64.2,0,1,Check
+221,37,35-44,Male,New York,5.71,Moderate (4-7h),8.07,13,1.48,1.58,0.63,3.69,Productivity,40.1,42.8,17.1,1,0,Check
+222,49,45-54,Male,Los Angeles,10.43,Very high (10h+),9.35,18,3.32,0.53,0.89,4.74,Social,70.0,11.2,18.8,0,0,Consistent
+223,24,18-24,Female,Houston,12.63,Very high (10h+),6.5,23,4.83,1.83,2.47,9.13,Social,52.9,20.0,27.1,0,1,Check
+224,58,55+,Male,Phoenix,6.93,Moderate (4-7h),6.97,5,0.25,0.5,0.41,1.16,Productivity,21.6,43.1,35.3,1,0,Check
+225,50,45-54,Female,Chicago,6.76,Moderate (4-7h),11.47,24,4.45,3.83,0.98,9.26,Social,48.1,41.4,10.6,1,0,Check
+226,57,55+,Female,Los Angeles,8.83,High (7-10h),10.32,8,2.88,4.83,4.72,12.43,Productivity,23.2,38.9,38.0,1,1,Check
+227,56,55+,Male,Los Angeles,8.69,High (7-10h),11.06,16,2.82,4.85,4.88,12.55,Gaming,22.5,38.6,38.9,1,1,Check
+228,35,35-44,Female,Chicago,11.49,Very high (10h+),9.95,26,2.5,4.33,1.88,8.71,Productivity,28.7,49.7,21.6,0,0,Consistent
+229,57,55+,Female,Los Angeles,7.19,High (7-10h),2.2,20,0.35,3.0,4.62,7.97,Gaming,4.4,37.6,58.0,0,1,Check
+230,18,18-24,Female,Chicago,13.95,Very high (10h+),2.64,19,0.45,3.5,2.72,6.67,Productivity,6.7,52.5,40.8,0,1,Check
+231,28,25-34,Female,New York,1.77,Light (<4h),6.79,6,3.0,1.43,1.35,5.78,Social,51.9,24.7,23.4,1,0,Check
+232,45,45-54,Female,Houston,1.04,Light (<4h),3.71,25,1.7,3.15,3.51,8.36,Gaming,20.3,37.7,42.0,1,1,Check
+233,42,35-44,Female,Houston,9.32,High (7-10h),6.24,17,4.59,2.28,3.29,10.16,Social,45.2,22.4,32.4,0,1,Check
+234,40,35-44,Male,Phoenix,4.88,Moderate (4-7h),5.34,13,2.03,2.41,4.95,9.39,Gaming,21.6,25.7,52.7,1,1,Check
+235,48,45-54,Female,Los Angeles,4.12,Moderate (4-7h),7.04,28,0.72,3.79,1.33,5.84,Productivity,12.3,64.9,22.8,1,0,Check
+236,47,45-54,Female,Phoenix,5.05,Moderate (4-7h),9.22,5,3.57,1.41,3.36,8.34,Social,42.8,16.9,40.3,1,0,Check
+237,59,55+,Female,New York,4.33,Moderate (4-7h),8.87,5,1.47,1.59,0.26,3.32,Productivity,44.3,47.9,7.8,1,0,Check
+238,52,45-54,Male,Houston,1.4,Light (<4h),6.73,18,2.63,4.62,0.57,7.82,Productivity,33.6,59.1,7.3,1,1,Check
+239,24,18-24,Female,New York,13.63,Very high (10h+),10.05,7,3.49,0.28,0.02,3.79,Social,92.1,7.4,0.5,0,0,Consistent
+240,33,25-34,Male,New York,3.87,Light (<4h),5.74,23,4.5,2.43,5.0,11.93,Gaming,37.7,20.4,41.9,1,1,Check
+241,43,35-44,Female,Los Angeles,10.54,Very high (10h+),10.86,12,3.96,4.56,4.01,12.53,Productivity,31.6,36.4,32.0,1,1,Check
+242,19,18-24,Male,New York,10.91,Very high (10h+),1.78,21,3.38,3.05,3.93,10.36,Gaming,32.6,29.4,37.9,0,1,Check
+243,18,18-24,Male,Houston,13.08,Very high (10h+),11.5,27,3.4,2.73,2.55,8.68,Social,39.2,31.5,29.4,0,0,Consistent
+244,29,25-34,Female,Phoenix,1.4,Light (<4h),8.2,6,4.73,1.25,1.5,7.48,Social,63.2,16.7,20.1,1,0,Check
+245,22,18-24,Female,Houston,12.34,Very high (10h+),5.18,21,1.48,1.72,0.76,3.96,Productivity,37.4,43.4,19.2,0,0,Consistent
+246,54,45-54,Male,Los Angeles,7.85,High (7-10h),3.17,13,0.01,4.26,1.42,5.69,Productivity,0.2,74.9,25.0,0,1,Check
+247,49,45-54,Female,Houston,9.22,High (7-10h),6.27,4,1.36,2.8,1.88,6.04,Productivity,22.5,46.4,31.1,0,0,Consistent
+248,26,25-34,Male,Chicago,9.38,High (7-10h),3.14,12,1.09,2.57,3.78,7.44,Gaming,14.7,34.5,50.8,0,1,Check
+249,58,55+,Male,Phoenix,11.66,Very high (10h+),2.83,13,3.31,0.5,2.7,6.51,Social,50.8,7.7,41.5,0,1,Check
+250,52,45-54,Male,Chicago,5.33,Moderate (4-7h),7.79,27,3.17,0.08,0.39,3.64,Social,87.1,2.2,10.7,1,0,Check
+251,36,35-44,Male,Chicago,10.53,Very high (10h+),6.75,22,2.97,4.82,0.09,7.88,Productivity,37.7,61.2,1.1,0,1,Check
+252,33,25-34,Male,Los Angeles,7.87,High (7-10h),8.37,18,0.08,1.88,0.51,2.47,Productivity,3.2,76.1,20.6,1,0,Check
+253,20,18-24,Female,New York,11.31,Very high (10h+),11.23,21,3.64,3.02,2.05,8.71,Social,41.8,34.7,23.5,0,0,Consistent
+254,37,35-44,Male,Chicago,13.88,Very high (10h+),6.85,25,1.62,0.4,4.67,6.69,Gaming,24.2,6.0,69.8,0,0,Consistent
+255,41,35-44,Male,Houston,3.61,Light (<4h),7.39,26,3.33,3.42,3.19,9.94,Productivity,33.5,34.4,32.1,1,1,Check
+256,50,45-54,Female,New York,13.93,Very high (10h+),1.99,13,2.78,4.66,4.01,11.45,Productivity,24.3,40.7,35.0,0,1,Check
+257,41,35-44,Male,Houston,2.17,Light (<4h),8.89,16,1.71,2.88,2.33,6.92,Productivity,24.7,41.6,33.7,1,0,Check
+258,28,25-34,Female,Houston,1.03,Light (<4h),5.4,4,0.67,0.63,1.81,3.11,Gaming,21.5,20.3,58.2,1,0,Check
+259,25,25-34,Female,New York,1.57,Light (<4h),11.74,25,0.47,2.91,0.54,3.92,Productivity,12.0,74.2,13.8,1,0,Check
+260,53,45-54,Female,New York,5.44,Moderate (4-7h),10.05,7,4.16,3.83,4.38,12.37,Gaming,33.6,31.0,35.4,1,1,Check
+261,55,55+,Male,Houston,9.23,High (7-10h),6.75,29,4.59,2.03,3.92,10.54,Social,43.5,19.3,37.2,0,1,Check
+262,57,55+,Male,Los Angeles,1.9,Light (<4h),2.36,7,3.25,4.4,0.84,8.49,Productivity,38.3,51.8,9.9,1,1,Check
+263,37,35-44,Male,Phoenix,1.07,Light (<4h),10.45,21,0.52,3.24,2.56,6.32,Productivity,8.2,51.3,40.5,1,0,Check
+264,52,45-54,Female,Phoenix,13.18,Very high (10h+),9.8,23,2.01,4.5,2.44,8.95,Productivity,22.5,50.3,27.3,0,0,Consistent
+265,42,35-44,Male,Los Angeles,11.69,Very high (10h+),3.03,14,3.64,3.12,3.13,9.89,Social,36.8,31.5,31.6,0,1,Check
+266,52,45-54,Female,New York,11.52,Very high (10h+),4.25,20,3.9,0.66,4.73,9.29,Gaming,42.0,7.1,50.9,0,1,Check
+267,42,35-44,Male,Houston,12.5,Very high (10h+),9.73,6,0.59,1.55,2.9,5.04,Gaming,11.7,30.8,57.5,0,0,Consistent
+268,46,45-54,Female,Phoenix,10.1,Very high (10h+),3.04,24,0.0,1.01,2.7,3.71,Gaming,0.0,27.2,72.8,0,1,Check
+269,35,35-44,Male,Houston,2.36,Light (<4h),11.1,19,3.56,4.54,0.25,8.35,Productivity,42.6,54.4,3.0,1,0,Check
+270,35,35-44,Male,Los Angeles,6.19,Moderate (4-7h),5.67,12,1.78,3.8,0.31,5.89,Productivity,30.2,64.5,5.3,0,1,Check
+271,19,18-24,Male,Houston,10.4,Very high (10h+),1.96,22,1.27,3.38,0.94,5.59,Productivity,22.7,60.5,16.8,0,1,Check
+272,52,45-54,Female,Los Angeles,4.64,Moderate (4-7h),9.97,8,0.06,1.5,0.16,1.72,Productivity,3.5,87.2,9.3,1,0,Check
+273,33,25-34,Female,New York,9.94,High (7-10h),5.11,27,2.7,0.92,3.72,7.34,Gaming,36.8,12.5,50.7,0,1,Check
+274,58,55+,Male,Los Angeles,1.32,Light (<4h),6.79,16,4.26,3.78,3.62,11.66,Social,36.5,32.4,31.0,1,1,Check
+275,53,45-54,Male,Los Angeles,4.98,Moderate (4-7h),2.24,13,4.79,2.37,0.68,7.84,Social,61.1,30.2,8.7,0,1,Check
+276,50,45-54,Female,Phoenix,8.14,High (7-10h),1.03,13,2.83,1.13,4.18,8.14,Gaming,34.8,13.9,51.4,0,1,Check
+277,21,18-24,Female,Houston,9.22,High (7-10h),8.02,20,2.57,3.08,0.77,6.42,Productivity,40.0,48.0,12.0,0,0,Consistent
+278,50,45-54,Female,Phoenix,8.5,High (7-10h),6.67,29,0.43,0.2,1.51,2.14,Gaming,20.1,9.3,70.6,0,0,Consistent
+279,31,25-34,Male,Chicago,10.07,Very high (10h+),7.53,25,2.74,1.63,1.24,5.61,Social,48.8,29.1,22.1,0,0,Consistent
+280,38,35-44,Female,Los Angeles,1.08,Light (<4h),9.73,24,1.9,2.34,1.86,6.1,Productivity,31.1,38.4,30.5,1,0,Check
+281,37,35-44,Male,Chicago,2.31,Light (<4h),8.11,20,3.04,0.74,1.27,5.05,Social,60.2,14.7,25.1,1,0,Check
+282,25,25-34,Female,Phoenix,12.3,Very high (10h+),2.92,26,1.94,4.92,2.44,9.3,Productivity,20.9,52.9,26.2,0,1,Check
+283,24,18-24,Male,Houston,9.86,High (7-10h),4.97,25,1.2,1.05,2.04,4.29,Gaming,28.0,24.5,47.6,0,0,Consistent
+284,20,18-24,Female,Phoenix,2.47,Light (<4h),10.96,13,0.47,0.65,4.93,6.05,Gaming,7.8,10.7,81.5,1,0,Check
+285,34,25-34,Female,Houston,11.95,Very high (10h+),9.47,23,1.57,1.02,0.28,2.87,Social,54.7,35.5,9.8,0,0,Consistent
+286,50,45-54,Female,Houston,4.15,Moderate (4-7h),7.12,14,0.48,3.85,0.71,5.04,Productivity,9.5,76.4,14.1,1,0,Check
+287,29,25-34,Female,New York,7.22,High (7-10h),3.81,7,0.88,2.13,0.26,3.27,Productivity,26.9,65.1,8.0,0,0,Consistent
+288,39,35-44,Female,Los Angeles,2.89,Light (<4h),4.32,25,4.94,2.83,3.13,10.9,Social,45.3,26.0,28.7,1,1,Check
+289,39,35-44,Male,Phoenix,10.23,Very high (10h+),9.05,11,2.22,0.11,0.27,2.6,Social,85.4,4.2,10.4,0,0,Consistent
+290,47,45-54,Female,Houston,9.67,High (7-10h),10.36,29,2.66,0.17,4.18,7.01,Gaming,37.9,2.4,59.6,1,0,Check
+291,55,55+,Female,Phoenix,3.74,Light (<4h),8.39,27,4.37,2.23,2.56,9.16,Social,47.7,24.3,27.9,1,1,Check
+292,55,55+,Female,Phoenix,12.22,Very high (10h+),9.9,11,4.98,4.08,2.64,11.7,Social,42.6,34.9,22.6,0,1,Check
+293,25,25-34,Male,Houston,6.22,Moderate (4-7h),9.43,24,2.91,4.43,2.81,10.15,Productivity,28.7,43.6,27.7,1,1,Check
+294,44,35-44,Female,Chicago,4.8,Moderate (4-7h),2.65,12,4.06,0.43,0.85,5.34,Social,76.0,8.1,15.9,0,1,Check
+295,44,35-44,Male,Los Angeles,2.98,Light (<4h),5.66,24,1.63,2.69,0.99,5.31,Productivity,30.7,50.7,18.6,1,0,Check
+296,51,45-54,Female,Los Angeles,4.46,Moderate (4-7h),2.68,21,1.53,4.57,1.59,7.69,Productivity,19.9,59.4,20.7,0,1,Check
+297,38,35-44,Female,New York,1.29,Light (<4h),3.59,3,2.01,1.94,2.97,6.92,Gaming,29.0,28.0,42.9,1,1,Check
+298,47,45-54,Male,New York,8.58,High (7-10h),10.56,9,3.36,4.15,1.05,8.56,Productivity,39.3,48.5,12.3,1,0,Check
+299,50,45-54,Female,New York,11.95,Very high (10h+),6.2,6,3.41,0.67,0.58,4.66,Social,73.2,14.4,12.4,0,0,Consistent
+300,45,45-54,Male,Los Angeles,8.14,High (7-10h),6.89,3,1.58,4.68,4.85,11.11,Gaming,14.2,42.1,43.7,0,1,Check
+301,50,45-54,Male,Chicago,3.85,Light (<4h),2.96,17,0.67,3.76,0.11,4.54,Productivity,14.8,82.8,2.4,0,1,Check
+302,22,18-24,Female,Los Angeles,1.44,Light (<4h),4.43,10,3.16,4.71,4.01,11.88,Productivity,26.6,39.6,33.8,1,1,Check
+303,36,35-44,Male,Los Angeles,3.79,Light (<4h),3.53,14,0.64,3.38,3.94,7.96,Gaming,8.0,42.5,49.5,0,1,Check
+304,21,18-24,Female,Los Angeles,6.41,Moderate (4-7h),3.27,24,2.89,1.82,1.49,6.2,Social,46.6,29.4,24.0,0,1,Check
+305,52,45-54,Female,Los Angeles,10.87,Very high (10h+),8.02,24,3.47,4.69,0.68,8.84,Productivity,39.3,53.1,7.7,0,1,Check
+306,34,25-34,Male,Chicago,3.44,Light (<4h),3.83,20,3.5,1.38,0.73,5.61,Social,62.4,24.6,13.0,1,1,Check
+307,45,45-54,Male,New York,10.36,Very high (10h+),7.95,17,3.77,1.66,3.49,8.92,Social,42.3,18.6,39.1,0,1,Check
+308,47,45-54,Male,Phoenix,12.27,Very high (10h+),1.64,19,4.36,3.5,3.21,11.07,Social,39.4,31.6,29.0,0,1,Check
+309,46,45-54,Male,New York,6.9,Moderate (4-7h),2.56,16,2.5,3.83,3.91,10.24,Gaming,24.4,37.4,38.2,0,1,Check
+310,23,18-24,Female,New York,11.68,Very high (10h+),4.02,16,3.65,4.65,4.69,12.99,Gaming,28.1,35.8,36.1,0,1,Check
+311,52,45-54,Female,Phoenix,8.21,High (7-10h),7.57,20,3.1,1.02,3.46,7.58,Gaming,40.9,13.5,45.6,0,1,Check
+312,58,55+,Male,Los Angeles,9.28,High (7-10h),8.43,22,0.93,3.99,0.78,5.7,Productivity,16.3,70.0,13.7,0,0,Consistent
+313,54,45-54,Female,Chicago,7.84,High (7-10h),5.87,20,0.13,3.69,1.22,5.04,Productivity,2.6,73.2,24.2,0,0,Consistent
+314,41,35-44,Female,Chicago,7.02,High (7-10h),5.9,18,1.42,0.32,4.21,5.95,Gaming,23.9,5.4,70.8,0,1,Check
+315,46,45-54,Female,New York,4.05,Moderate (4-7h),8.97,3,2.22,1.94,1.05,5.21,Social,42.6,37.2,20.2,1,0,Check
+316,48,45-54,Female,Phoenix,4.94,Moderate (4-7h),1.17,25,3.09,1.41,0.36,4.86,Social,63.6,29.0,7.4,0,1,Check
+317,52,45-54,Male,Houston,4.77,Moderate (4-7h),4.75,29,4.25,1.52,3.52,9.29,Social,45.7,16.4,37.9,0,1,Check
+318,50,45-54,Male,Los Angeles,8.32,High (7-10h),10.01,13,0.98,4.91,2.01,7.9,Productivity,12.4,62.2,25.4,1,0,Check
+319,38,35-44,Female,New York,2.56,Light (<4h),7.64,17,0.63,3.21,4.6,8.44,Gaming,7.5,38.0,54.5,1,1,Check
+320,49,45-54,Male,Chicago,12.92,Very high (10h+),4.71,14,4.82,3.59,3.25,11.66,Social,41.3,30.8,27.9,0,1,Check
+321,40,35-44,Male,Phoenix,10.37,Very high (10h+),10.96,10,0.54,4.88,0.45,5.87,Productivity,9.2,83.1,7.7,1,0,Check
+322,50,45-54,Male,Phoenix,6.22,Moderate (4-7h),9.5,24,2.39,1.89,4.74,9.02,Gaming,26.5,21.0,52.5,1,0,Check
+323,20,18-24,Female,New York,3.06,Light (<4h),3.91,22,2.93,4.01,1.29,8.23,Productivity,35.6,48.7,15.7,1,1,Check
+324,35,35-44,Female,Houston,12.47,Very high (10h+),8.1,8,2.71,2.17,1.69,6.57,Social,41.2,33.0,25.7,0,0,Consistent
+325,42,35-44,Female,Chicago,11.71,Very high (10h+),7.55,5,0.43,4.35,2.01,6.79,Productivity,6.3,64.1,29.6,0,0,Consistent
+326,59,55+,Male,New York,10.38,Very high (10h+),5.41,26,0.29,0.9,0.26,1.45,Productivity,20.0,62.1,17.9,0,0,Consistent
+327,48,45-54,Female,Houston,4.53,Moderate (4-7h),5.04,28,0.53,4.74,2.48,7.75,Productivity,6.8,61.2,32.0,1,1,Check
+328,20,18-24,Female,Phoenix,6.23,Moderate (4-7h),4.78,15,2.93,1.09,0.62,4.64,Social,63.1,23.5,13.4,0,0,Consistent
+329,57,55+,Male,Los Angeles,2.34,Light (<4h),7.79,15,2.72,1.63,2.0,6.35,Social,42.8,25.7,31.5,1,0,Check
+330,41,35-44,Female,Chicago,3.46,Light (<4h),5.87,4,1.17,3.78,1.75,6.7,Productivity,17.5,56.4,26.1,1,1,Check
+331,49,45-54,Female,Chicago,11.18,Very high (10h+),10.15,7,3.19,1.97,3.86,9.02,Gaming,35.4,21.8,42.8,0,0,Consistent
+332,39,35-44,Male,Houston,10.3,Very high (10h+),8.37,19,4.1,3.04,4.02,11.16,Social,36.7,27.2,36.0,0,1,Check
+333,40,35-44,Male,New York,8.72,High (7-10h),1.77,8,0.21,2.22,0.77,3.2,Productivity,6.6,69.4,24.1,0,1,Check
+334,19,18-24,Male,Phoenix,12.64,Very high (10h+),8.04,4,2.49,3.71,1.83,8.03,Productivity,31.0,46.2,22.8,0,0,Consistent
+335,44,35-44,Female,Houston,8.58,High (7-10h),3.98,6,3.45,1.14,1.87,6.46,Social,53.4,17.6,28.9,0,1,Check
+336,59,55+,Female,Los Angeles,7.07,High (7-10h),7.52,24,1.26,0.29,0.76,2.31,Social,54.5,12.6,32.9,1,0,Check
+337,19,18-24,Female,Los Angeles,5.42,Moderate (4-7h),8.48,28,1.54,1.5,3.99,7.03,Gaming,21.9,21.3,56.8,1,0,Check
+338,43,35-44,Male,Los Angeles,13.23,Very high (10h+),3.54,13,3.07,2.37,3.54,8.98,Gaming,34.2,26.4,39.4,0,1,Check
+339,34,25-34,Male,Houston,2.08,Light (<4h),6.03,10,4.49,0.84,0.95,6.28,Social,71.5,13.4,15.1,1,1,Check
+340,57,55+,Female,Phoenix,13.1,Very high (10h+),3.09,14,4.05,1.77,1.83,7.65,Social,52.9,23.1,23.9,0,1,Check
+341,50,45-54,Female,Chicago,11.75,Very high (10h+),1.58,10,2.92,2.0,0.53,5.45,Social,53.6,36.7,9.7,0,1,Check
+342,26,25-34,Male,New York,2.69,Light (<4h),5.16,13,3.65,0.29,3.14,7.08,Social,51.6,4.1,44.4,1,1,Check
+343,56,55+,Male,Chicago,8.34,High (7-10h),4.99,24,1.82,2.92,0.61,5.35,Productivity,34.0,54.6,11.4,0,1,Check
+344,46,45-54,Male,Phoenix,12.27,Very high (10h+),11.95,22,3.2,4.42,4.93,12.55,Gaming,25.5,35.2,39.3,0,1,Check
+345,59,55+,Male,Chicago,8.43,High (7-10h),5.91,10,2.33,0.76,3.9,6.99,Gaming,33.3,10.9,55.8,0,1,Check
+346,43,35-44,Female,Houston,12.79,Very high (10h+),4.67,10,0.95,2.99,1.95,5.89,Productivity,16.1,50.8,33.1,0,1,Check
+347,52,45-54,Male,Los Angeles,13.26,Very high (10h+),7.39,28,3.51,3.32,2.89,9.72,Social,36.1,34.2,29.7,0,1,Check
+348,42,35-44,Female,Phoenix,6.49,Moderate (4-7h),1.98,19,2.78,2.1,4.56,9.44,Gaming,29.4,22.2,48.3,0,1,Check
+349,41,35-44,Female,Phoenix,5.91,Moderate (4-7h),11.58,22,1.79,3.51,2.77,8.07,Productivity,22.2,43.5,34.3,1,0,Check
+350,30,25-34,Female,Chicago,13.17,Very high (10h+),7.98,22,4.56,2.05,0.87,7.48,Social,61.0,27.4,11.6,0,0,Consistent
+351,24,18-24,Male,Houston,9.78,High (7-10h),9.3,25,0.1,2.52,1.89,4.51,Productivity,2.2,55.9,41.9,0,0,Consistent
+352,53,45-54,Male,Chicago,2.51,Light (<4h),2.88,18,1.58,0.04,4.22,5.84,Gaming,27.1,0.7,72.3,1,1,Check
+353,37,35-44,Male,Chicago,1.55,Light (<4h),5.5,16,0.28,3.46,3.22,6.96,Productivity,4.0,49.7,46.3,1,1,Check
+354,18,18-24,Male,Phoenix,8.34,High (7-10h),5.65,13,3.83,3.31,3.25,10.39,Social,36.9,31.9,31.3,0,1,Check
+355,25,25-34,Female,Chicago,13.09,Very high (10h+),10.04,9,3.51,0.19,4.33,8.03,Gaming,43.7,2.4,53.9,0,0,Consistent
+356,33,25-34,Male,Los Angeles,11.98,Very high (10h+),1.01,18,1.66,1.84,4.47,7.97,Gaming,20.8,23.1,56.1,0,1,Check
+357,31,25-34,Male,Chicago,9.79,High (7-10h),4.31,15,3.38,4.9,4.6,12.88,Productivity,26.2,38.0,35.7,0,1,Check
+358,29,25-34,Female,Los Angeles,2.81,Light (<4h),11.79,29,1.98,2.1,0.47,4.55,Productivity,43.5,46.2,10.3,1,0,Check
+359,40,35-44,Male,Phoenix,4.31,Moderate (4-7h),6.22,17,3.78,2.51,2.72,9.01,Social,42.0,27.9,30.2,1,1,Check
+360,32,25-34,Female,Houston,12.38,Very high (10h+),5.21,26,2.27,4.55,3.7,10.52,Productivity,21.6,43.3,35.2,0,1,Check
+361,45,45-54,Female,Los Angeles,3.38,Light (<4h),2.32,18,2.06,3.59,3.78,9.43,Gaming,21.8,38.1,40.1,0,1,Check
+362,51,45-54,Female,Houston,4.62,Moderate (4-7h),11.72,29,4.67,2.91,3.03,10.61,Social,44.0,27.4,28.6,1,0,Check
+363,19,18-24,Female,Houston,2.68,Light (<4h),1.22,23,1.25,3.99,0.83,6.07,Productivity,20.6,65.7,13.7,0,1,Check
+364,49,45-54,Female,Los Angeles,9.79,High (7-10h),9.11,25,0.6,4.32,3.99,8.91,Productivity,6.7,48.5,44.8,0,0,Consistent
+365,40,35-44,Female,Phoenix,13.27,Very high (10h+),9.45,26,2.92,2.28,3.6,8.8,Gaming,33.2,25.9,40.9,0,0,Consistent
+366,39,35-44,Female,New York,4.5,Moderate (4-7h),3.68,11,4.85,2.38,0.43,7.66,Social,63.3,31.1,5.6,0,1,Check
+367,42,35-44,Female,Houston,7.18,High (7-10h),8.39,5,1.89,1.93,2.32,6.14,Gaming,30.8,31.4,37.8,1,0,Check
+368,39,35-44,Male,Houston,9.25,High (7-10h),2.02,21,0.31,4.83,0.87,6.01,Productivity,5.2,80.4,14.5,0,1,Check
+369,39,35-44,Male,Phoenix,13.99,Very high (10h+),3.83,22,1.7,3.49,1.69,6.88,Productivity,24.7,50.7,24.6,0,1,Check
+370,59,55+,Male,Phoenix,2.36,Light (<4h),9.67,7,2.53,0.42,0.09,3.04,Social,83.2,13.8,3.0,1,0,Check
+371,23,18-24,Male,Chicago,7.48,High (7-10h),10.51,12,0.81,4.31,2.0,7.12,Productivity,11.4,60.5,28.1,1,0,Check
+372,32,25-34,Female,Phoenix,6.01,Moderate (4-7h),7.69,19,3.29,2.4,2.75,8.44,Social,39.0,28.4,32.6,1,1,Check
+373,54,45-54,Male,Houston,12.26,Very high (10h+),6.58,17,4.99,0.34,3.1,8.43,Social,59.2,4.0,36.8,0,1,Check
+374,50,45-54,Female,Los Angeles,7.19,High (7-10h),2.75,25,2.26,2.75,3.32,8.33,Gaming,27.1,33.0,39.9,0,1,Check
+375,25,25-34,Male,New York,2.44,Light (<4h),1.69,27,1.77,2.09,4.18,8.04,Gaming,22.0,26.0,52.0,0,1,Check
+376,22,18-24,Male,Chicago,9.25,High (7-10h),2.29,10,2.0,4.39,1.08,7.47,Productivity,26.8,58.8,14.5,0,1,Check
+377,56,55+,Male,Los Angeles,11.02,Very high (10h+),3.5,17,0.58,1.02,0.6,2.2,Productivity,26.4,46.4,27.3,0,0,Consistent
+378,21,18-24,Female,New York,1.04,Light (<4h),4.76,23,4.42,4.13,4.26,12.81,Social,34.5,32.2,33.3,1,1,Check
+379,23,18-24,Male,New York,12.17,Very high (10h+),5.19,16,2.07,2.79,0.78,5.64,Productivity,36.7,49.5,13.8,0,1,Check
+380,49,45-54,Female,New York,3.42,Light (<4h),4.81,22,1.94,0.27,4.87,7.08,Gaming,27.4,3.8,68.8,1,1,Check
+381,47,45-54,Female,Los Angeles,8.18,High (7-10h),3.63,9,3.3,4.86,4.21,12.37,Productivity,26.7,39.3,34.0,0,1,Check
+382,52,45-54,Male,Chicago,6.41,Moderate (4-7h),6.61,23,2.21,2.56,2.5,7.27,Productivity,30.4,35.2,34.4,1,1,Check
+383,57,55+,Male,Chicago,10.36,Very high (10h+),10.08,25,3.24,1.45,4.91,9.6,Gaming,33.8,15.1,51.1,0,0,Consistent
+384,33,25-34,Male,New York,5.83,Moderate (4-7h),4.08,14,0.31,2.35,0.49,3.15,Productivity,9.8,74.6,15.6,0,0,Consistent
+385,30,25-34,Female,Los Angeles,12.31,Very high (10h+),11.37,19,4.07,4.29,1.52,9.88,Productivity,41.2,43.4,15.4,0,0,Consistent
+386,59,55+,Male,New York,10.5,Very high (10h+),10.61,19,4.7,1.52,3.19,9.41,Social,49.9,16.2,33.9,1,0,Check
+387,47,45-54,Female,Phoenix,9.42,High (7-10h),2.78,12,3.24,0.96,1.75,5.95,Social,54.5,16.1,29.4,0,1,Check
+388,36,35-44,Female,Chicago,11.35,Very high (10h+),9.65,21,4.77,0.65,4.64,10.06,Social,47.4,6.5,46.1,0,1,Check
+389,34,25-34,Male,Houston,10.8,Very high (10h+),7.32,16,0.76,1.49,0.33,2.58,Productivity,29.5,57.8,12.8,0,0,Consistent
+390,36,35-44,Male,New York,1.47,Light (<4h),7.23,13,2.39,3.9,2.75,9.04,Productivity,26.4,43.1,30.4,1,1,Check
+391,45,45-54,Female,Phoenix,6.13,Moderate (4-7h),5.3,4,3.01,2.36,2.95,8.32,Social,36.2,28.4,35.5,0,1,Check
+392,43,35-44,Female,Chicago,13.1,Very high (10h+),6.51,20,2.91,1.14,3.26,7.31,Gaming,39.8,15.6,44.6,0,1,Check
+393,54,45-54,Female,Los Angeles,2.63,Light (<4h),5.37,9,2.01,0.83,1.28,4.12,Social,48.8,20.1,31.1,1,0,Check
+394,43,35-44,Male,Chicago,10.58,Very high (10h+),6.94,14,1.69,1.66,1.82,5.17,Gaming,32.7,32.1,35.2,0,0,Consistent
+395,40,35-44,Female,Los Angeles,13.67,Very high (10h+),7.91,28,0.63,4.7,4.22,9.55,Productivity,6.6,49.2,44.2,0,1,Check
+396,26,25-34,Male,Los Angeles,1.68,Light (<4h),8.42,4,1.96,1.72,0.97,4.65,Social,42.2,37.0,20.9,1,0,Check
+397,29,25-34,Female,New York,9.87,High (7-10h),6.86,29,0.81,4.94,4.13,9.88,Productivity,8.2,50.0,41.8,0,1,Check
+398,18,18-24,Female,New York,7.09,High (7-10h),8.94,22,3.67,2.43,2.81,8.91,Social,41.2,27.3,31.5,1,0,Check
+399,18,18-24,Male,Chicago,8.53,High (7-10h),2.55,20,1.04,0.9,3.81,5.75,Gaming,18.1,15.7,66.3,0,1,Check
+400,51,45-54,Female,Phoenix,2.11,Light (<4h),3.33,8,0.29,4.46,3.57,8.32,Productivity,3.5,53.6,42.9,1,1,Check
+401,49,45-54,Male,Chicago,1.56,Light (<4h),10.01,26,2.76,2.3,1.04,6.1,Social,45.2,37.7,17.0,1,0,Check
+402,42,35-44,Male,Houston,9.67,High (7-10h),4.55,12,2.98,3.55,2.84,9.37,Productivity,31.8,37.9,30.3,0,1,Check
+403,57,55+,Female,Los Angeles,11.7,Very high (10h+),1.25,22,4.36,4.92,4.34,13.62,Productivity,32.0,36.1,31.9,0,1,Check
+404,18,18-24,Male,Los Angeles,11.17,Very high (10h+),2.69,17,2.88,0.25,2.16,5.29,Social,54.4,4.7,40.8,0,1,Check
+405,33,25-34,Male,New York,8.07,High (7-10h),3.46,7,1.73,0.48,4.83,7.04,Gaming,24.6,6.8,68.6,0,1,Check
+406,56,55+,Female,Phoenix,2.3,Light (<4h),11.53,22,4.02,3.6,2.26,9.88,Social,40.7,36.4,22.9,1,0,Check
+407,22,18-24,Male,New York,9.94,High (7-10h),7.3,5,2.7,1.41,0.71,4.82,Social,56.0,29.3,14.7,0,0,Consistent
+408,39,35-44,Male,Houston,4.14,Moderate (4-7h),11.26,7,0.4,0.92,1.95,3.27,Gaming,12.2,28.1,59.6,1,0,Check
+409,46,45-54,Male,Chicago,12.84,Very high (10h+),7.33,27,2.83,0.2,4.76,7.79,Gaming,36.3,2.6,61.1,0,1,Check
+410,20,18-24,Female,Chicago,11.9,Very high (10h+),6.27,10,4.54,0.11,1.6,6.25,Social,72.6,1.8,25.6,0,0,Consistent
+411,29,25-34,Male,Phoenix,10.22,Very high (10h+),4.45,10,1.98,3.87,4.34,10.19,Gaming,19.4,38.0,42.6,0,1,Check
+412,43,35-44,Female,New York,13.33,Very high (10h+),7.67,10,1.48,0.67,4.41,6.56,Gaming,22.6,10.2,67.2,0,0,Consistent
+413,33,25-34,Female,New York,1.41,Light (<4h),2.53,14,0.72,2.34,1.75,4.81,Productivity,15.0,48.6,36.4,1,1,Check
+414,54,45-54,Male,Houston,10.57,Very high (10h+),10.88,26,0.76,3.03,0.42,4.21,Productivity,18.1,72.0,10.0,1,0,Check
+415,39,35-44,Male,Chicago,5.29,Moderate (4-7h),10.12,25,2.16,2.14,3.62,7.92,Gaming,27.3,27.0,45.7,1,0,Check
+416,46,45-54,Male,New York,12.78,Very high (10h+),4.49,10,2.98,0.14,1.56,4.68,Social,63.7,3.0,33.3,0,1,Check
+417,31,25-34,Female,Phoenix,4.47,Moderate (4-7h),11.48,13,0.4,3.92,3.91,8.23,Productivity,4.9,47.6,47.5,1,0,Check
+418,45,45-54,Male,Chicago,10.42,Very high (10h+),10.08,16,4.7,0.05,2.21,6.96,Social,67.5,0.7,31.8,0,0,Consistent
+419,22,18-24,Male,Houston,12.41,Very high (10h+),8.33,10,3.78,3.81,2.43,10.02,Productivity,37.7,38.0,24.3,0,1,Check
+420,47,45-54,Male,Phoenix,1.54,Light (<4h),2.34,26,2.93,4.47,3.89,11.29,Productivity,26.0,39.6,34.5,1,1,Check
+421,22,18-24,Male,Los Angeles,6.17,Moderate (4-7h),6.26,12,4.14,2.16,1.91,8.21,Social,50.4,26.3,23.3,1,1,Check
+422,29,25-34,Male,Houston,10.91,Very high (10h+),6.57,9,0.4,2.68,2.22,5.3,Productivity,7.5,50.6,41.9,0,0,Consistent
+423,33,25-34,Female,Phoenix,6.91,Moderate (4-7h),3.56,19,2.38,2.38,1.88,6.64,Social,35.8,35.8,28.3,0,1,Check
+424,43,35-44,Female,New York,4.47,Moderate (4-7h),1.88,6,3.15,1.95,1.84,6.94,Social,45.4,28.1,26.5,0,1,Check
+425,43,35-44,Male,Los Angeles,3.86,Light (<4h),9.54,15,4.14,4.44,2.63,11.21,Productivity,36.9,39.6,23.5,1,1,Check
+426,38,35-44,Male,Houston,2.71,Light (<4h),2.34,6,3.92,4.47,4.04,12.43,Productivity,31.5,36.0,32.5,0,1,Check
+427,56,55+,Male,New York,12.14,Very high (10h+),7.54,7,1.39,1.68,1.81,4.88,Gaming,28.5,34.4,37.1,0,0,Consistent
+428,53,45-54,Male,Los Angeles,8.48,High (7-10h),11.3,28,4.7,3.08,2.62,10.4,Social,45.2,29.6,25.2,1,0,Check
+429,50,45-54,Female,Chicago,1.99,Light (<4h),10.64,24,0.62,4.63,3.35,8.6,Productivity,7.2,53.8,39.0,1,0,Check
+430,47,45-54,Male,New York,5.97,Moderate (4-7h),4.06,6,4.38,4.81,1.35,10.54,Productivity,41.6,45.6,12.8,0,1,Check
+431,54,45-54,Female,Phoenix,5.78,Moderate (4-7h),10.37,20,4.85,2.54,1.39,8.78,Social,55.2,28.9,15.8,1,0,Check
+432,40,35-44,Female,Houston,3.36,Light (<4h),1.0,8,0.89,2.26,4.67,7.82,Gaming,11.4,28.9,59.7,0,1,Check
+433,27,25-34,Male,Los Angeles,6.66,Moderate (4-7h),1.19,26,3.61,1.39,3.62,8.62,Gaming,41.9,16.1,42.0,0,1,Check
+434,22,18-24,Female,New York,5.32,Moderate (4-7h),7.63,26,0.2,4.79,2.89,7.88,Productivity,2.5,60.8,36.7,1,1,Check
+435,53,45-54,Female,Chicago,5.44,Moderate (4-7h),5.01,25,2.03,0.71,3.24,5.98,Gaming,33.9,11.9,54.2,0,1,Check
+436,51,45-54,Female,Houston,10.61,Very high (10h+),5.25,24,2.58,2.9,0.15,5.63,Productivity,45.8,51.5,2.7,0,1,Check
+437,48,45-54,Female,Houston,3.9,Light (<4h),7.21,4,2.9,1.41,3.09,7.4,Gaming,39.2,19.1,41.8,1,1,Check
+438,27,25-34,Male,New York,9.34,High (7-10h),3.11,25,4.68,1.4,2.55,8.63,Social,54.2,16.2,29.5,0,1,Check
+439,36,35-44,Male,Chicago,8.42,High (7-10h),3.33,13,3.36,2.02,2.73,8.11,Social,41.4,24.9,33.7,0,1,Check
+440,49,45-54,Female,Los Angeles,8.39,High (7-10h),6.33,16,2.41,4.99,1.8,9.2,Productivity,26.2,54.2,19.6,0,1,Check
+441,18,18-24,Male,New York,9.62,High (7-10h),9.3,7,4.05,0.27,0.41,4.73,Social,85.6,5.7,8.7,0,0,Consistent
+442,22,18-24,Male,Los Angeles,8.13,High (7-10h),7.81,8,4.75,2.89,0.97,8.61,Social,55.2,33.6,11.3,0,1,Check
+443,21,18-24,Male,Houston,12.43,Very high (10h+),4.27,12,0.11,0.41,4.75,5.27,Gaming,2.1,7.8,90.1,0,1,Check
+444,33,25-34,Male,Los Angeles,9.78,High (7-10h),5.73,10,4.91,0.77,2.04,7.72,Social,63.6,10.0,26.4,0,1,Check
+445,41,35-44,Male,Chicago,8.11,High (7-10h),2.88,16,0.43,2.2,2.33,4.96,Gaming,8.7,44.4,47.0,0,1,Check
+446,33,25-34,Female,Phoenix,11.79,Very high (10h+),1.82,26,4.07,2.55,0.26,6.88,Social,59.2,37.1,3.8,0,1,Check
+447,19,18-24,Male,Chicago,8.88,High (7-10h),9.61,5,1.4,1.29,0.19,2.88,Social,48.6,44.8,6.6,1,0,Check
+448,45,45-54,Male,Los Angeles,4.78,Moderate (4-7h),3.92,14,0.66,1.58,3.59,5.83,Gaming,11.3,27.1,61.6,0,1,Check
+449,49,45-54,Male,New York,3.69,Light (<4h),2.96,18,2.2,0.43,2.69,5.32,Gaming,41.4,8.1,50.6,0,1,Check
+450,44,35-44,Male,Houston,2.98,Light (<4h),8.61,25,3.22,1.52,2.54,7.28,Social,44.2,20.9,34.9,1,0,Check
+451,37,35-44,Female,Phoenix,12.69,Very high (10h+),7.8,19,1.9,4.83,1.22,7.95,Productivity,23.9,60.8,15.3,0,1,Check
+452,41,35-44,Female,New York,10.23,Very high (10h+),7.97,3,0.27,4.72,3.72,8.71,Productivity,3.1,54.2,42.7,0,1,Check
+453,29,25-34,Female,New York,13.19,Very high (10h+),3.52,25,3.0,1.67,0.84,5.51,Social,54.4,30.3,15.2,0,1,Check
+454,52,45-54,Female,Chicago,8.84,High (7-10h),3.56,12,4.51,2.85,0.95,8.31,Social,54.3,34.3,11.4,0,1,Check
+455,50,45-54,Male,Los Angeles,7.15,High (7-10h),3.43,27,1.92,4.55,2.3,8.77,Productivity,21.9,51.9,26.2,0,1,Check
+456,50,45-54,Female,Chicago,1.78,Light (<4h),2.91,25,1.08,0.03,1.43,2.54,Gaming,42.5,1.2,56.3,1,0,Check
+457,54,45-54,Male,Los Angeles,9.73,High (7-10h),8.21,12,2.21,4.05,1.24,7.5,Productivity,29.5,54.0,16.5,0,0,Consistent
+458,29,25-34,Male,Chicago,8.57,High (7-10h),10.33,23,0.24,4.74,3.23,8.21,Productivity,2.9,57.7,39.3,1,0,Check
+459,20,18-24,Male,New York,13.87,Very high (10h+),8.97,26,4.1,0.46,3.25,7.81,Social,52.5,5.9,41.6,0,0,Consistent
+460,18,18-24,Male,Houston,4.11,Moderate (4-7h),9.71,4,4.13,0.81,4.12,9.06,Social,45.6,8.9,45.5,1,0,Check
+461,50,45-54,Male,Los Angeles,7.9,High (7-10h),5.45,11,2.94,4.8,2.09,9.83,Productivity,29.9,48.8,21.3,0,1,Check
+462,57,55+,Female,Phoenix,9.46,High (7-10h),8.19,24,1.77,2.69,0.37,4.83,Productivity,36.6,55.7,7.7,0,0,Consistent
+463,27,25-34,Female,Phoenix,9.38,High (7-10h),4.9,15,4.0,0.07,1.37,5.44,Social,73.5,1.3,25.2,0,1,Check
+464,46,45-54,Female,New York,8.3,High (7-10h),6.78,27,2.77,1.29,4.9,8.96,Gaming,30.9,14.4,54.7,0,1,Check
+465,30,25-34,Female,Chicago,11.1,Very high (10h+),6.3,18,4.13,2.25,2.98,9.36,Social,44.1,24.0,31.8,0,1,Check
+466,29,25-34,Male,Chicago,3.66,Light (<4h),2.95,20,3.16,3.46,3.55,10.17,Gaming,31.1,34.0,34.9,0,1,Check
+467,48,45-54,Female,New York,10.43,Very high (10h+),5.26,21,3.92,3.67,0.04,7.63,Social,51.4,48.1,0.5,0,1,Check
+468,19,18-24,Male,Phoenix,9.06,High (7-10h),11.6,14,2.99,4.98,2.59,10.56,Productivity,28.3,47.2,24.5,1,0,Check
+469,52,45-54,Female,Phoenix,12.65,Very high (10h+),3.73,10,2.07,1.44,0.19,3.7,Social,55.9,38.9,5.1,0,0,Consistent
+470,40,35-44,Male,Chicago,12.01,Very high (10h+),2.47,19,4.79,2.69,2.85,10.33,Social,46.4,26.0,27.6,0,1,Check
+471,34,25-34,Male,Los Angeles,5.1,Moderate (4-7h),5.6,17,2.71,2.67,4.6,9.98,Gaming,27.2,26.8,46.1,1,1,Check
+472,43,35-44,Female,Houston,4.59,Moderate (4-7h),9.69,12,3.03,2.03,4.84,9.9,Gaming,30.6,20.5,48.9,1,1,Check
+473,25,25-34,Male,Los Angeles,13.76,Very high (10h+),7.4,17,1.1,0.85,2.7,4.65,Gaming,23.7,18.3,58.1,0,0,Consistent
+474,46,45-54,Male,Phoenix,7.85,High (7-10h),8.49,17,3.13,4.89,2.29,10.31,Productivity,30.4,47.4,22.2,1,1,Check
+475,43,35-44,Female,Los Angeles,12.78,Very high (10h+),3.09,25,2.86,4.27,4.73,11.86,Gaming,24.1,36.0,39.9,0,1,Check
+476,27,25-34,Male,Houston,3.13,Light (<4h),7.81,9,0.92,2.49,3.37,6.78,Gaming,13.6,36.7,49.7,1,0,Check
+477,43,35-44,Female,Los Angeles,9.36,High (7-10h),4.56,15,0.3,3.02,0.32,3.64,Productivity,8.2,83.0,8.8,0,0,Consistent
+478,51,45-54,Female,Los Angeles,11.53,Very high (10h+),10.18,19,3.02,1.14,2.33,6.49,Social,46.5,17.6,35.9,0,0,Consistent
+479,58,55+,Female,Los Angeles,13.32,Very high (10h+),7.92,11,3.82,2.72,1.2,7.74,Social,49.4,35.1,15.5,0,0,Consistent
+480,24,18-24,Male,Los Angeles,5.39,Moderate (4-7h),3.19,10,2.62,3.47,2.35,8.44,Productivity,31.0,41.1,27.8,0,1,Check
+481,21,18-24,Male,New York,10.42,Very high (10h+),1.71,22,1.13,2.58,2.28,5.99,Productivity,18.9,43.1,38.1,0,1,Check
+482,28,25-34,Male,Phoenix,8.0,High (7-10h),1.47,28,3.33,4.95,2.91,11.19,Productivity,29.8,44.2,26.0,0,1,Check
+483,46,45-54,Female,Houston,1.79,Light (<4h),5.09,29,0.4,3.06,1.78,5.24,Productivity,7.6,58.4,34.0,1,1,Check
+484,53,45-54,Male,Phoenix,9.97,High (7-10h),3.92,23,2.21,1.85,0.82,4.88,Social,45.3,37.9,16.8,0,1,Check
+485,42,35-44,Female,New York,9.97,High (7-10h),8.11,20,0.82,3.86,2.52,7.2,Productivity,11.4,53.6,35.0,0,0,Consistent
+486,38,35-44,Female,New York,13.1,Very high (10h+),6.49,15,0.92,0.85,4.15,5.92,Gaming,15.5,14.4,70.1,0,0,Consistent
+487,53,45-54,Male,New York,7.47,High (7-10h),3.93,18,1.01,1.92,3.32,6.25,Gaming,16.2,30.7,53.1,0,1,Check
+488,27,25-34,Female,New York,3.99,Light (<4h),2.64,11,1.93,1.73,1.69,5.35,Social,36.1,32.3,31.6,0,1,Check
+489,54,45-54,Male,Los Angeles,1.58,Light (<4h),2.4,14,0.26,2.16,4.68,7.1,Gaming,3.7,30.4,65.9,1,1,Check
+490,26,25-34,Male,Phoenix,6.4,Moderate (4-7h),10.51,14,1.99,3.91,4.56,10.46,Gaming,19.0,37.4,43.6,1,0,Check
+491,41,35-44,Male,Chicago,4.92,Moderate (4-7h),3.68,8,2.56,2.42,1.05,6.03,Social,42.5,40.1,17.4,0,1,Check
+492,52,45-54,Male,Houston,10.89,Very high (10h+),8.17,21,2.42,3.97,0.2,6.59,Productivity,36.7,60.2,3.0,0,0,Consistent
+493,52,45-54,Male,New York,5.61,Moderate (4-7h),9.92,9,1.91,2.88,3.71,8.5,Gaming,22.5,33.9,43.6,1,0,Check
+494,53,45-54,Female,Phoenix,13.34,Very high (10h+),7.75,27,4.2,1.71,4.14,10.05,Social,41.8,17.0,41.2,0,1,Check
+495,35,35-44,Female,New York,13.51,Very high (10h+),10.46,5,0.73,4.05,4.84,9.62,Gaming,7.6,42.1,50.3,0,0,Consistent
+496,56,55+,Female,New York,9.07,High (7-10h),5.32,18,2.53,1.19,4.45,8.17,Gaming,31.0,14.6,54.5,0,1,Check
+497,49,45-54,Male,New York,13.07,Very high (10h+),11.52,20,0.31,1.12,3.0,4.43,Gaming,7.0,25.3,67.7,0,0,Consistent
+498,41,35-44,Male,New York,10.89,Very high (10h+),2.46,18,0.36,2.52,2.65,5.53,Gaming,6.5,45.6,47.9,0,1,Check
+499,40,35-44,Male,New York,8.11,High (7-10h),2.12,25,2.87,1.3,0.14,4.31,Social,66.6,30.2,3.2,0,1,Check
+500,49,45-54,Female,Houston,3.34,Light (<4h),8.25,9,2.83,0.05,1.23,4.11,Social,68.9,1.2,29.9,1,0,Check
+501,54,45-54,Male,Phoenix,6.96,Moderate (4-7h),11.37,6,4.39,3.24,2.3,9.93,Social,44.2,32.6,23.2,1,0,Check
+502,29,25-34,Female,New York,8.29,High (7-10h),9.9,29,2.79,2.56,3.14,8.49,Gaming,32.9,30.2,37.0,1,0,Check
+503,30,25-34,Female,New York,12.23,Very high (10h+),1.84,27,4.8,2.23,2.79,9.82,Social,48.9,22.7,28.4,0,1,Check
+504,40,35-44,Male,New York,7.26,High (7-10h),4.07,10,0.24,4.83,3.71,8.78,Productivity,2.7,55.0,42.3,0,1,Check
+505,42,35-44,Male,New York,12.67,Very high (10h+),11.23,15,0.49,2.86,1.4,4.75,Productivity,10.3,60.2,29.5,0,0,Consistent
+506,52,45-54,Female,Los Angeles,9.77,High (7-10h),3.78,15,0.22,4.32,2.82,7.36,Productivity,3.0,58.7,38.3,0,1,Check
+507,58,55+,Male,Los Angeles,2.78,Light (<4h),9.59,19,0.93,0.7,0.44,2.07,Social,44.9,33.8,21.3,1,0,Check
+508,47,45-54,Female,Chicago,13.93,Very high (10h+),10.08,19,2.71,2.85,2.07,7.63,Productivity,35.5,37.4,27.1,0,0,Consistent
+509,34,25-34,Male,New York,7.85,High (7-10h),6.45,7,3.23,4.34,3.75,11.32,Productivity,28.5,38.3,33.1,0,1,Check
+510,37,35-44,Male,Chicago,6.09,Moderate (4-7h),5.25,8,0.23,2.92,3.47,6.62,Gaming,3.5,44.1,52.4,0,1,Check
+511,42,35-44,Female,Houston,9.57,High (7-10h),5.95,21,4.73,3.59,4.95,13.27,Gaming,35.6,27.1,37.3,0,1,Check
+512,39,35-44,Male,Chicago,2.42,Light (<4h),3.5,15,4.21,1.86,1.39,7.46,Social,56.4,24.9,18.6,1,1,Check
+513,30,25-34,Female,Phoenix,9.28,High (7-10h),10.78,27,1.48,0.46,2.49,4.43,Gaming,33.4,10.4,56.2,1,0,Check
+514,36,35-44,Male,Los Angeles,7.48,High (7-10h),5.96,28,0.39,2.29,1.65,4.33,Productivity,9.0,52.9,38.1,0,0,Consistent
+515,53,45-54,Female,Los Angeles,6.29,Moderate (4-7h),10.71,16,0.85,1.97,2.2,5.02,Gaming,16.9,39.2,43.8,1,0,Check
+516,29,25-34,Female,New York,13.39,Very high (10h+),2.16,24,0.63,4.34,4.28,9.25,Productivity,6.8,46.9,46.3,0,1,Check
+517,58,55+,Male,New York,7.79,High (7-10h),11.87,6,0.62,1.22,3.42,5.26,Gaming,11.8,23.2,65.0,1,0,Check
+518,36,35-44,Female,Houston,3.85,Light (<4h),5.88,9,2.59,4.83,4.41,11.83,Productivity,21.9,40.8,37.3,1,1,Check
+519,29,25-34,Male,Houston,6.97,Moderate (4-7h),1.53,10,1.23,4.79,1.02,7.04,Productivity,17.5,68.0,14.5,0,1,Check
+520,26,25-34,Male,Phoenix,12.95,Very high (10h+),1.42,27,1.79,1.24,4.37,7.4,Gaming,24.2,16.8,59.1,0,1,Check
+521,24,18-24,Male,New York,3.29,Light (<4h),9.21,15,4.95,1.74,0.3,6.99,Social,70.8,24.9,4.3,1,0,Check
+522,45,45-54,Female,New York,3.78,Light (<4h),8.25,29,3.42,4.48,4.44,12.34,Productivity,27.7,36.3,36.0,1,1,Check
+523,31,25-34,Female,Houston,1.17,Light (<4h),9.82,8,4.74,4.83,1.65,11.22,Productivity,42.2,43.0,14.7,1,1,Check
+524,48,45-54,Male,Houston,1.18,Light (<4h),2.16,8,0.71,2.22,1.57,4.5,Productivity,15.8,49.3,34.9,1,1,Check
+525,36,35-44,Male,Houston,11.78,Very high (10h+),1.39,26,1.91,1.6,2.56,6.07,Gaming,31.5,26.4,42.2,0,1,Check
+526,33,25-34,Female,Los Angeles,10.52,Very high (10h+),6.59,23,2.77,2.63,4.7,10.1,Gaming,27.4,26.0,46.5,0,1,Check
+527,22,18-24,Male,Chicago,5.62,Moderate (4-7h),5.26,5,0.38,3.44,0.24,4.06,Productivity,9.4,84.7,5.9,0,0,Consistent
+528,52,45-54,Male,Chicago,10.08,Very high (10h+),6.08,5,0.02,1.37,1.76,3.15,Gaming,0.6,43.5,55.9,0,0,Consistent
+529,29,25-34,Female,New York,6.14,Moderate (4-7h),11.91,15,3.35,3.68,4.28,11.31,Gaming,29.6,32.5,37.8,1,0,Check
+530,42,35-44,Male,Los Angeles,13.39,Very high (10h+),11.68,24,3.21,0.26,1.98,5.45,Social,58.9,4.8,36.3,0,0,Consistent
+531,38,35-44,Female,Houston,13.57,Very high (10h+),11.37,4,2.05,0.25,1.0,3.3,Social,62.1,7.6,30.3,0,0,Consistent
+532,53,45-54,Male,New York,6.11,Moderate (4-7h),9.62,18,2.45,1.93,2.12,6.5,Social,37.7,29.7,32.6,1,0,Check
+533,40,35-44,Female,Los Angeles,12.1,Very high (10h+),4.9,24,2.08,1.77,1.93,5.78,Social,36.0,30.6,33.4,0,1,Check
+534,33,25-34,Male,Phoenix,11.05,Very high (10h+),5.53,8,0.12,1.58,4.58,6.28,Gaming,1.9,25.2,72.9,0,1,Check
+535,56,55+,Male,Los Angeles,5.03,Moderate (4-7h),7.05,10,1.68,2.46,3.81,7.95,Gaming,21.1,30.9,47.9,1,1,Check
+536,59,55+,Female,New York,4.02,Moderate (4-7h),10.14,25,0.89,1.6,2.53,5.02,Gaming,17.7,31.9,50.4,1,0,Check
+537,56,55+,Male,Chicago,6.96,Moderate (4-7h),1.76,10,0.49,0.96,4.94,6.39,Gaming,7.7,15.0,77.3,0,1,Check
+538,31,25-34,Female,Houston,11.16,Very high (10h+),5.67,27,4.78,1.55,2.33,8.66,Social,55.2,17.9,26.9,0,1,Check
+539,48,45-54,Male,Phoenix,13.48,Very high (10h+),1.91,8,3.0,4.87,0.29,8.16,Productivity,36.8,59.7,3.6,0,1,Check
+540,22,18-24,Female,Los Angeles,10.93,Very high (10h+),6.66,16,3.64,2.06,1.31,7.01,Social,51.9,29.4,18.7,0,1,Check
+541,52,45-54,Female,New York,12.12,Very high (10h+),10.89,5,1.58,2.22,2.18,5.98,Productivity,26.4,37.1,36.5,0,0,Consistent
+542,40,35-44,Female,New York,8.84,High (7-10h),9.61,12,1.97,2.88,0.78,5.63,Productivity,35.0,51.2,13.9,1,0,Check
+543,46,45-54,Female,Houston,11.86,Very high (10h+),3.51,5,1.18,4.92,4.74,10.84,Productivity,10.9,45.4,43.7,0,1,Check
+544,28,25-34,Male,New York,11.2,Very high (10h+),11.74,29,0.48,1.21,3.83,5.52,Gaming,8.7,21.9,69.4,1,0,Check
+545,35,35-44,Male,New York,5.9,Moderate (4-7h),8.34,14,0.9,3.41,1.34,5.65,Productivity,15.9,60.4,23.7,1,0,Check
+546,29,25-34,Female,Houston,8.18,High (7-10h),1.11,19,3.99,3.58,2.95,10.52,Social,37.9,34.0,28.0,0,1,Check
+547,26,25-34,Female,Phoenix,11.46,Very high (10h+),3.81,29,3.39,3.04,3.61,10.04,Gaming,33.8,30.3,36.0,0,1,Check
+548,27,25-34,Female,Chicago,1.6,Light (<4h),3.87,7,2.73,0.44,4.71,7.88,Gaming,34.6,5.6,59.8,1,1,Check
+549,34,25-34,Male,Chicago,11.51,Very high (10h+),1.76,22,2.38,3.38,4.41,10.17,Gaming,23.4,33.2,43.4,0,1,Check
+550,55,55+,Male,Los Angeles,3.31,Light (<4h),11.56,27,4.61,0.32,2.58,7.51,Social,61.4,4.3,34.4,1,0,Check
+551,24,18-24,Male,Phoenix,7.69,High (7-10h),6.26,11,0.36,2.98,3.87,7.21,Gaming,5.0,41.3,53.7,0,1,Check
+552,30,25-34,Male,Los Angeles,11.51,Very high (10h+),10.85,23,1.4,3.7,2.81,7.91,Productivity,17.7,46.8,35.5,0,0,Consistent
+553,57,55+,Female,Chicago,4.3,Moderate (4-7h),4.54,28,1.75,1.05,2.76,5.56,Gaming,31.5,18.9,49.6,1,1,Check
+554,59,55+,Female,Houston,4.2,Moderate (4-7h),2.38,22,3.91,4.21,0.57,8.69,Productivity,45.0,48.4,6.6,0,1,Check
+555,26,25-34,Female,New York,6.24,Moderate (4-7h),6.22,9,4.96,0.15,0.63,5.74,Social,86.4,2.6,11.0,0,0,Consistent
+556,44,35-44,Male,Chicago,12.63,Very high (10h+),2.25,24,1.2,4.22,2.65,8.07,Productivity,14.9,52.3,32.8,0,1,Check
+557,19,18-24,Male,Phoenix,1.01,Light (<4h),6.35,6,4.37,2.3,1.34,8.01,Social,54.6,28.7,16.7,1,1,Check
+558,22,18-24,Male,Chicago,12.72,Very high (10h+),11.12,15,4.15,1.09,0.11,5.35,Social,77.6,20.4,2.1,0,0,Consistent
+559,46,45-54,Female,Phoenix,3.0,Light (<4h),6.73,15,1.12,0.67,3.61,5.4,Gaming,20.7,12.4,66.9,1,0,Check
+560,54,45-54,Female,Phoenix,13.87,Very high (10h+),7.78,12,2.0,4.77,0.16,6.93,Productivity,28.9,68.8,2.3,0,0,Consistent
+561,55,55+,Male,Phoenix,13.41,Very high (10h+),2.72,20,2.05,0.36,2.98,5.39,Gaming,38.0,6.7,55.3,0,1,Check
+562,36,35-44,Female,Los Angeles,7.43,High (7-10h),1.48,19,4.89,1.0,2.7,8.59,Social,56.9,11.6,31.4,0,1,Check
+563,25,25-34,Male,Houston,7.67,High (7-10h),2.22,22,0.9,1.74,4.84,7.48,Gaming,12.0,23.3,64.7,0,1,Check
+564,18,18-24,Male,Chicago,7.26,High (7-10h),7.58,22,4.0,3.1,2.42,9.52,Social,42.0,32.6,25.4,1,1,Check
+565,39,35-44,Female,Houston,9.26,High (7-10h),2.05,15,1.67,2.72,0.32,4.71,Productivity,35.5,57.7,6.8,0,1,Check
+566,34,25-34,Male,New York,2.18,Light (<4h),5.14,19,3.65,0.63,2.76,7.04,Social,51.8,8.9,39.2,1,1,Check
+567,24,18-24,Female,Chicago,1.42,Light (<4h),7.05,24,2.1,1.45,4.21,7.76,Gaming,27.1,18.7,54.3,1,1,Check
+568,42,35-44,Male,Houston,1.75,Light (<4h),5.28,6,2.89,1.19,4.98,9.06,Gaming,31.9,13.1,55.0,1,1,Check
+569,21,18-24,Female,Houston,6.78,Moderate (4-7h),2.8,3,4.16,1.07,2.15,7.38,Social,56.4,14.5,29.1,0,1,Check
+570,53,45-54,Female,New York,4.58,Moderate (4-7h),4.01,3,4.02,2.06,1.6,7.68,Social,52.3,26.8,20.8,0,1,Check
+571,23,18-24,Female,Phoenix,9.09,High (7-10h),11.21,17,4.33,3.52,4.53,12.38,Gaming,35.0,28.4,36.6,1,1,Check
+572,48,45-54,Male,Chicago,13.9,Very high (10h+),8.44,15,0.3,1.09,0.96,2.35,Productivity,12.8,46.4,40.9,0,0,Consistent
+573,36,35-44,Male,Chicago,6.02,Moderate (4-7h),6.46,19,3.46,1.83,3.08,8.37,Social,41.3,21.9,36.8,1,1,Check
+574,56,55+,Female,New York,8.46,High (7-10h),1.14,26,0.7,1.95,2.03,4.68,Gaming,15.0,41.7,43.4,0,1,Check
+575,44,35-44,Female,Phoenix,6.4,Moderate (4-7h),11.92,28,2.08,4.88,0.21,7.17,Productivity,29.0,68.1,2.9,1,0,Check
+576,27,25-34,Male,Chicago,12.01,Very high (10h+),8.39,10,2.74,4.77,1.74,9.25,Productivity,29.6,51.6,18.8,0,1,Check
+577,43,35-44,Male,Chicago,12.73,Very high (10h+),4.49,20,2.01,4.0,1.33,7.34,Productivity,27.4,54.5,18.1,0,1,Check
+578,36,35-44,Male,Chicago,12.41,Very high (10h+),10.67,29,2.6,1.21,3.43,7.24,Gaming,35.9,16.7,47.4,0,0,Consistent
+579,56,55+,Female,Phoenix,13.67,Very high (10h+),3.84,15,4.98,0.34,4.74,10.06,Social,49.5,3.4,47.1,0,1,Check
+580,20,18-24,Male,New York,1.36,Light (<4h),6.98,25,0.68,1.58,1.34,3.6,Productivity,18.9,43.9,37.2,1,0,Check
+581,30,25-34,Male,Chicago,11.92,Very high (10h+),8.0,16,3.38,1.33,4.06,8.77,Gaming,38.5,15.2,46.3,0,1,Check
+582,45,45-54,Female,Houston,10.77,Very high (10h+),3.43,10,1.98,2.53,0.28,4.79,Productivity,41.3,52.8,5.8,0,1,Check
+583,37,35-44,Male,Phoenix,3.97,Light (<4h),11.76,10,0.67,3.89,2.69,7.25,Productivity,9.2,53.7,37.1,1,0,Check
+584,45,45-54,Male,Los Angeles,13.43,Very high (10h+),9.23,29,0.79,4.29,0.35,5.43,Productivity,14.5,79.0,6.4,0,0,Consistent
+585,25,25-34,Male,New York,2.93,Light (<4h),7.14,28,4.75,4.22,4.67,13.64,Social,34.8,30.9,34.2,1,1,Check
+586,58,55+,Female,Houston,9.83,High (7-10h),2.99,17,4.4,1.8,3.83,10.03,Social,43.9,17.9,38.2,0,1,Check
+587,56,55+,Female,Chicago,3.92,Light (<4h),1.59,29,4.54,3.44,3.29,11.27,Social,40.3,30.5,29.2,0,1,Check
+588,18,18-24,Female,Los Angeles,6.61,Moderate (4-7h),4.52,15,4.96,1.56,4.12,10.64,Social,46.6,14.7,38.7,0,1,Check
+589,20,18-24,Female,New York,10.35,Very high (10h+),9.29,9,1.04,0.3,3.24,4.58,Gaming,22.7,6.6,70.7,0,0,Consistent
+590,30,25-34,Female,Phoenix,8.32,High (7-10h),3.96,7,1.78,3.51,4.84,10.13,Gaming,17.6,34.6,47.8,0,1,Check
+591,45,45-54,Female,Los Angeles,6.56,Moderate (4-7h),6.94,19,3.35,0.05,3.57,6.97,Gaming,48.1,0.7,51.2,1,1,Check
+592,42,35-44,Female,Los Angeles,5.24,Moderate (4-7h),9.01,27,2.42,2.05,4.62,9.09,Gaming,26.6,22.6,50.8,1,1,Check
+593,50,45-54,Male,Houston,11.92,Very high (10h+),2.19,18,2.09,1.65,2.59,6.33,Gaming,33.0,26.1,40.9,0,1,Check
+594,55,55+,Male,New York,2.87,Light (<4h),8.54,25,1.79,3.47,0.59,5.85,Productivity,30.6,59.3,10.1,1,0,Check
+595,23,18-24,Female,Houston,6.59,Moderate (4-7h),2.01,4,2.97,3.83,2.64,9.44,Productivity,31.5,40.6,28.0,0,1,Check
+596,49,45-54,Male,Houston,12.75,Very high (10h+),11.62,24,2.88,1.52,0.63,5.03,Social,57.3,30.2,12.5,0,0,Consistent
+597,38,35-44,Male,Chicago,12.0,Very high (10h+),6.37,20,0.81,4.06,2.96,7.83,Productivity,10.3,51.9,37.8,0,1,Check
+598,33,25-34,Female,Phoenix,6.21,Moderate (4-7h),2.66,19,2.36,1.47,2.41,6.24,Gaming,37.8,23.6,38.6,0,1,Check
+599,38,35-44,Male,Los Angeles,10.92,Very high (10h+),4.77,9,2.77,2.23,3.11,8.11,Gaming,34.2,27.5,38.3,0,1,Check
+600,28,25-34,Male,New York,11.7,Very high (10h+),5.55,15,2.85,3.64,0.05,6.54,Productivity,43.6,55.7,0.8,0,1,Check
+601,54,45-54,Male,Phoenix,12.56,Very high (10h+),9.34,20,1.05,3.46,0.97,5.48,Productivity,19.2,63.1,17.7,0,0,Consistent
+602,53,45-54,Male,Phoenix,8.08,High (7-10h),9.18,16,3.71,4.94,2.46,11.11,Productivity,33.4,44.5,22.1,1,1,Check
+603,52,45-54,Male,New York,3.66,Light (<4h),7.73,20,0.13,1.13,4.75,6.01,Gaming,2.2,18.8,79.0,1,0,Check
+604,36,35-44,Female,Phoenix,4.32,Moderate (4-7h),2.17,15,1.77,3.31,1.92,7.0,Productivity,25.3,47.3,27.4,0,1,Check
+605,37,35-44,Female,Chicago,4.84,Moderate (4-7h),2.67,13,3.9,3.05,2.12,9.07,Social,43.0,33.6,23.4,0,1,Check
+606,35,35-44,Female,Phoenix,8.72,High (7-10h),2.03,23,2.82,4.58,3.57,10.97,Productivity,25.7,41.8,32.5,0,1,Check
+607,58,55+,Male,Chicago,1.43,Light (<4h),7.35,23,1.31,0.78,3.02,5.11,Gaming,25.6,15.3,59.1,1,0,Check
+608,31,25-34,Female,Los Angeles,9.27,High (7-10h),10.65,18,3.47,3.76,1.49,8.72,Productivity,39.8,43.1,17.1,1,0,Check
+609,32,25-34,Male,Los Angeles,5.74,Moderate (4-7h),5.77,25,2.84,2.84,2.05,7.73,Social,36.7,36.7,26.5,1,1,Check
+610,48,45-54,Male,Houston,4.84,Moderate (4-7h),2.77,19,3.98,1.37,1.09,6.44,Social,61.8,21.3,16.9,0,1,Check
+611,18,18-24,Male,Chicago,12.43,Very high (10h+),7.14,10,3.68,2.37,4.83,10.88,Gaming,33.8,21.8,44.4,0,1,Check
+612,20,18-24,Male,Los Angeles,6.98,Moderate (4-7h),9.93,21,3.05,1.67,0.65,5.37,Social,56.8,31.1,12.1,1,0,Check
+613,33,25-34,Female,Phoenix,2.24,Light (<4h),9.16,22,2.44,2.9,1.86,7.2,Productivity,33.9,40.3,25.8,1,0,Check
+614,40,35-44,Female,New York,11.75,Very high (10h+),10.7,17,0.67,4.45,0.13,5.25,Productivity,12.8,84.8,2.5,0,0,Consistent
+615,28,25-34,Male,New York,1.62,Light (<4h),4.06,11,1.31,2.85,1.11,5.27,Productivity,24.9,54.1,21.1,1,1,Check
+616,29,25-34,Female,Chicago,10.45,Very high (10h+),3.13,22,2.1,3.16,3.9,9.16,Gaming,22.9,34.5,42.6,0,1,Check
+617,27,25-34,Male,Houston,11.06,Very high (10h+),10.68,12,3.0,2.59,1.01,6.6,Social,45.5,39.2,15.3,0,0,Consistent
+618,49,45-54,Female,Phoenix,5.58,Moderate (4-7h),8.23,14,2.57,0.26,0.4,3.23,Social,79.6,8.0,12.4,1,0,Check
+619,33,25-34,Female,Chicago,11.72,Very high (10h+),4.42,23,1.44,1.16,2.37,4.97,Gaming,29.0,23.3,47.7,0,1,Check
+620,25,25-34,Male,New York,7.7,High (7-10h),9.17,25,0.03,2.46,0.05,2.54,Productivity,1.2,96.9,2.0,1,0,Check
+621,55,55+,Female,Chicago,7.02,High (7-10h),9.97,22,2.48,1.55,0.42,4.45,Social,55.7,34.8,9.4,1,0,Check
+622,29,25-34,Male,Phoenix,1.59,Light (<4h),7.76,3,1.43,0.91,4.04,6.38,Gaming,22.4,14.3,63.3,1,0,Check
+623,41,35-44,Female,Los Angeles,4.77,Moderate (4-7h),8.57,27,3.67,2.52,3.86,10.05,Gaming,36.5,25.1,38.4,1,1,Check
+624,45,45-54,Male,Phoenix,13.1,Very high (10h+),5.13,22,0.12,1.61,4.58,6.31,Gaming,1.9,25.5,72.6,0,1,Check
+625,25,25-34,Male,Los Angeles,6.09,Moderate (4-7h),6.93,11,2.92,1.29,4.27,8.48,Gaming,34.4,15.2,50.4,1,1,Check
+626,45,45-54,Female,Los Angeles,8.11,High (7-10h),6.77,24,4.71,2.32,3.42,10.45,Social,45.1,22.2,32.7,0,1,Check
+627,53,45-54,Female,Los Angeles,7.92,High (7-10h),10.33,17,0.87,0.67,0.26,1.8,Social,48.3,37.2,14.4,1,0,Check
+628,43,35-44,Male,Chicago,8.68,High (7-10h),10.24,3,2.36,4.64,3.91,10.91,Productivity,21.6,42.5,35.8,1,1,Check
+629,25,25-34,Female,New York,1.8,Light (<4h),10.16,14,0.46,4.34,4.23,9.03,Productivity,5.1,48.1,46.8,1,0,Check
+630,45,45-54,Female,Chicago,5.71,Moderate (4-7h),1.12,5,3.13,3.54,4.0,10.67,Gaming,29.3,33.2,37.5,0,1,Check
+631,45,45-54,Male,New York,10.4,Very high (10h+),9.25,13,2.75,0.53,2.54,5.82,Social,47.3,9.1,43.6,0,0,Consistent
+632,54,45-54,Male,Phoenix,3.61,Light (<4h),9.35,4,2.04,3.88,1.16,7.08,Productivity,28.8,54.8,16.4,1,0,Check
+633,58,55+,Female,Houston,3.65,Light (<4h),8.46,18,2.61,4.04,4.23,10.88,Gaming,24.0,37.1,38.9,1,1,Check
+634,53,45-54,Male,Phoenix,1.13,Light (<4h),9.32,11,4.48,3.84,3.64,11.96,Social,37.5,32.1,30.4,1,1,Check
+635,44,35-44,Male,Chicago,6.69,Moderate (4-7h),10.26,17,0.98,0.57,4.9,6.45,Gaming,15.2,8.8,76.0,1,0,Check
+636,34,25-34,Male,Chicago,12.48,Very high (10h+),6.17,14,0.11,3.22,0.78,4.11,Productivity,2.7,78.3,19.0,0,0,Consistent
+637,26,25-34,Female,New York,1.67,Light (<4h),6.52,3,4.31,4.17,1.13,9.61,Social,44.8,43.4,11.8,1,1,Check
+638,50,45-54,Female,Chicago,3.48,Light (<4h),2.37,15,2.89,2.89,1.06,6.84,Social,42.3,42.3,15.5,0,1,Check
+639,37,35-44,Male,Los Angeles,5.03,Moderate (4-7h),5.24,16,4.45,3.23,3.96,11.64,Social,38.2,27.7,34.0,1,1,Check
+640,30,25-34,Female,Chicago,10.51,Very high (10h+),8.08,27,2.98,2.29,0.93,6.2,Social,48.1,36.9,15.0,0,0,Consistent
+641,45,45-54,Male,New York,9.33,High (7-10h),9.58,27,4.05,2.64,0.33,7.02,Social,57.7,37.6,4.7,1,0,Check
+642,46,45-54,Female,New York,6.41,Moderate (4-7h),3.39,10,2.15,0.17,4.99,7.31,Gaming,29.4,2.3,68.3,0,1,Check
+643,30,25-34,Male,Los Angeles,10.87,Very high (10h+),2.52,10,3.75,3.19,0.12,7.06,Social,53.1,45.2,1.7,0,1,Check
+644,52,45-54,Male,New York,8.93,High (7-10h),8.29,29,4.57,0.41,4.18,9.16,Social,49.9,4.5,45.6,0,1,Check
+645,23,18-24,Female,Houston,12.65,Very high (10h+),1.02,14,2.86,2.18,1.83,6.87,Social,41.6,31.7,26.6,0,1,Check
+646,35,35-44,Male,Phoenix,11.63,Very high (10h+),2.96,3,0.9,1.46,4.21,6.57,Gaming,13.7,22.2,64.1,0,1,Check
+647,22,18-24,Female,Chicago,4.29,Moderate (4-7h),1.32,13,1.34,2.73,2.77,6.84,Gaming,19.6,39.9,40.5,0,1,Check
+648,42,35-44,Female,Houston,4.53,Moderate (4-7h),2.84,10,0.99,0.67,4.51,6.17,Gaming,16.0,10.9,73.1,0,1,Check
+649,19,18-24,Male,Chicago,2.63,Light (<4h),2.99,12,1.23,3.46,4.63,9.32,Gaming,13.2,37.1,49.7,1,1,Check
+650,27,25-34,Male,Houston,5.38,Moderate (4-7h),5.26,21,1.53,3.98,0.05,5.56,Productivity,27.5,71.6,0.9,0,1,Check
+651,47,45-54,Female,Chicago,13.99,Very high (10h+),5.43,13,2.78,0.82,0.38,3.98,Social,69.8,20.6,9.5,0,0,Consistent
+652,22,18-24,Male,Los Angeles,6.27,Moderate (4-7h),10.62,9,2.94,0.52,1.25,4.71,Social,62.4,11.0,26.5,1,0,Check
+653,50,45-54,Male,New York,3.87,Light (<4h),6.61,13,2.13,0.73,3.35,6.21,Gaming,34.3,11.8,53.9,1,0,Check
+654,18,18-24,Male,New York,10.91,Very high (10h+),8.96,19,3.08,4.39,4.44,11.91,Gaming,25.9,36.9,37.3,0,1,Check
+655,35,35-44,Male,Los Angeles,8.05,High (7-10h),2.15,3,0.41,2.64,2.3,5.35,Productivity,7.7,49.3,43.0,0,1,Check
+656,49,45-54,Male,Houston,2.94,Light (<4h),3.48,28,0.44,2.34,3.03,5.81,Gaming,7.6,40.3,52.2,1,1,Check
+657,28,25-34,Female,Phoenix,5.95,Moderate (4-7h),8.73,23,0.86,0.53,0.94,2.33,Gaming,36.9,22.7,40.3,1,0,Check
+658,38,35-44,Female,Houston,6.39,Moderate (4-7h),1.58,23,2.59,3.25,4.02,9.86,Gaming,26.3,33.0,40.8,0,1,Check
+659,43,35-44,Male,New York,10.8,Very high (10h+),6.35,10,1.07,4.34,4.84,10.25,Gaming,10.4,42.3,47.2,0,1,Check
+660,42,35-44,Male,Phoenix,1.27,Light (<4h),7.59,25,1.42,4.14,1.34,6.9,Productivity,20.6,60.0,19.4,1,0,Check
+661,39,35-44,Male,Chicago,4.5,Moderate (4-7h),7.62,26,2.0,3.13,2.47,7.6,Productivity,26.3,41.2,32.5,1,0,Check
+662,44,35-44,Female,Phoenix,7.73,High (7-10h),1.25,8,4.06,0.38,0.43,4.87,Social,83.4,7.8,8.8,0,1,Check
+663,30,25-34,Male,Houston,4.5,Moderate (4-7h),4.54,24,0.07,0.56,2.8,3.43,Gaming,2.0,16.3,81.6,1,0,Check
+664,50,45-54,Female,Los Angeles,9.17,High (7-10h),8.0,20,3.25,0.25,2.51,6.01,Social,54.1,4.2,41.8,0,0,Consistent
+665,51,45-54,Female,Chicago,7.26,High (7-10h),2.64,8,3.34,1.29,0.72,5.35,Social,62.4,24.1,13.5,0,1,Check
+666,58,55+,Female,Houston,5.7,Moderate (4-7h),8.65,7,3.99,0.68,2.21,6.88,Social,58.0,9.9,32.1,1,0,Check
+667,52,45-54,Male,Chicago,13.34,Very high (10h+),9.21,15,4.66,1.3,1.67,7.63,Social,61.1,17.0,21.9,0,0,Consistent
+668,18,18-24,Female,Phoenix,9.22,High (7-10h),11.8,21,0.1,1.93,2.61,4.64,Gaming,2.2,41.6,56.2,1,0,Check
+669,38,35-44,Male,New York,2.69,Light (<4h),3.31,24,0.77,4.71,2.93,8.41,Productivity,9.2,56.0,34.8,1,1,Check
+670,23,18-24,Female,Houston,8.28,High (7-10h),10.08,10,4.43,3.05,0.04,7.52,Social,58.9,40.6,0.5,1,0,Check
+671,45,45-54,Male,Los Angeles,11.15,Very high (10h+),6.72,11,2.29,4.17,3.81,10.27,Productivity,22.3,40.6,37.1,0,1,Check
+672,34,25-34,Female,Phoenix,10.21,Very high (10h+),5.11,19,2.82,3.55,3.57,9.94,Gaming,28.4,35.7,35.9,0,1,Check
+673,22,18-24,Male,Houston,3.24,Light (<4h),2.35,5,3.32,0.56,1.83,5.71,Social,58.1,9.8,32.0,0,1,Check
+674,48,45-54,Female,Los Angeles,13.64,Very high (10h+),9.09,21,3.4,3.68,0.26,7.34,Productivity,46.3,50.1,3.5,0,0,Consistent
+675,22,18-24,Male,Houston,6.83,Moderate (4-7h),3.59,13,4.66,1.38,3.77,9.81,Social,47.5,14.1,38.4,0,1,Check
+676,55,55+,Male,Phoenix,3.07,Light (<4h),5.09,26,4.98,3.2,4.78,12.96,Social,38.4,24.7,36.9,1,1,Check
+677,20,18-24,Male,Houston,3.34,Light (<4h),1.69,19,3.6,1.7,1.2,6.5,Social,55.4,26.2,18.5,0,1,Check
+678,40,35-44,Male,Chicago,2.28,Light (<4h),9.82,23,1.44,4.99,1.62,8.05,Productivity,17.9,62.0,20.1,1,0,Check
+679,54,45-54,Female,Phoenix,11.45,Very high (10h+),9.43,21,4.4,1.32,0.92,6.64,Social,66.3,19.9,13.9,0,0,Consistent
+680,54,45-54,Female,Houston,2.59,Light (<4h),9.07,4,0.25,1.4,2.88,4.53,Gaming,5.5,30.9,63.6,1,0,Check
+681,27,25-34,Male,New York,2.63,Light (<4h),4.29,10,1.16,4.65,0.77,6.58,Productivity,17.6,70.7,11.7,1,1,Check
+682,27,25-34,Female,Houston,12.06,Very high (10h+),2.91,21,4.49,0.12,1.78,6.39,Social,70.3,1.9,27.9,0,1,Check
+683,36,35-44,Male,Chicago,5.48,Moderate (4-7h),8.01,9,1.28,3.48,3.49,8.25,Gaming,15.5,42.2,42.3,1,1,Check
+684,34,25-34,Male,Los Angeles,1.4,Light (<4h),6.46,29,1.1,3.63,2.8,7.53,Productivity,14.6,48.2,37.2,1,1,Check
+685,38,35-44,Female,Los Angeles,1.67,Light (<4h),2.96,19,0.69,4.18,1.93,6.8,Productivity,10.1,61.5,28.4,1,1,Check
+686,31,25-34,Male,Los Angeles,2.85,Light (<4h),8.55,8,4.3,4.87,2.1,11.27,Productivity,38.2,43.2,18.6,1,1,Check
+687,26,25-34,Male,New York,3.77,Light (<4h),11.9,21,2.5,4.88,2.81,10.19,Productivity,24.5,47.9,27.6,1,0,Check
+688,18,18-24,Female,Chicago,9.65,High (7-10h),9.22,26,3.37,0.33,0.03,3.73,Social,90.3,8.8,0.8,0,0,Consistent
+689,30,25-34,Male,Phoenix,3.05,Light (<4h),9.14,8,1.2,4.11,0.39,5.7,Productivity,21.1,72.1,6.8,1,0,Check
+690,21,18-24,Male,Los Angeles,2.55,Light (<4h),11.45,4,3.79,3.23,4.41,11.43,Gaming,33.2,28.3,38.6,1,0,Check
+691,18,18-24,Male,Chicago,10.94,Very high (10h+),3.23,8,3.8,3.24,0.39,7.43,Social,51.1,43.6,5.2,0,1,Check
+692,57,55+,Male,Houston,9.72,High (7-10h),7.22,25,1.56,0.64,3.53,5.73,Gaming,27.2,11.2,61.6,0,0,Consistent
+693,49,45-54,Female,New York,6.66,Moderate (4-7h),11.78,7,2.05,3.25,4.6,9.9,Gaming,20.7,32.8,46.5,1,0,Check
+694,51,45-54,Female,Chicago,8.14,High (7-10h),2.82,21,1.05,4.91,1.35,7.31,Productivity,14.4,67.2,18.5,0,1,Check
+695,45,45-54,Female,Chicago,5.06,Moderate (4-7h),8.7,22,4.88,4.56,1.85,11.29,Social,43.2,40.4,16.4,1,1,Check
+696,48,45-54,Male,Phoenix,7.27,High (7-10h),7.44,6,3.23,2.2,2.84,8.27,Social,39.1,26.6,34.3,1,1,Check
+697,25,25-34,Male,Chicago,7.59,High (7-10h),7.45,24,4.67,0.2,4.41,9.28,Social,50.3,2.2,47.5,0,1,Check
+698,56,55+,Female,Phoenix,6.03,Moderate (4-7h),8.67,28,1.52,1.81,4.71,8.04,Gaming,18.9,22.5,58.6,1,0,Check
+699,43,35-44,Male,New York,12.79,Very high (10h+),11.23,19,3.91,4.13,3.7,11.74,Productivity,33.3,35.2,31.5,0,1,Check
+700,51,45-54,Male,New York,1.21,Light (<4h),9.61,13,3.83,3.51,0.43,7.77,Social,49.3,45.2,5.5,1,0,Check
+701,20,18-24,Male,Houston,11.17,Very high (10h+),1.62,6,3.46,2.3,3.35,9.11,Social,38.0,25.2,36.8,0,1,Check
+702,29,25-34,Male,Phoenix,2.62,Light (<4h),10.38,28,4.83,0.28,2.05,7.16,Social,67.5,3.9,28.6,1,0,Check
+703,18,18-24,Female,Phoenix,11.37,Very high (10h+),3.48,15,1.97,2.13,2.35,6.45,Gaming,30.5,33.0,36.4,0,1,Check
+704,22,18-24,Female,Los Angeles,9.01,High (7-10h),5.15,22,0.65,2.35,0.25,3.25,Productivity,20.0,72.3,7.7,0,0,Consistent
+705,47,45-54,Female,Los Angeles,11.96,Very high (10h+),6.08,28,3.36,4.64,0.96,8.96,Productivity,37.5,51.8,10.7,0,1,Check
+706,47,45-54,Male,Houston,2.27,Light (<4h),6.29,19,3.65,3.21,3.95,10.81,Gaming,33.8,29.7,36.5,1,1,Check
+707,34,25-34,Female,New York,8.27,High (7-10h),5.79,11,2.88,1.56,2.27,6.71,Social,42.9,23.2,33.8,0,1,Check
+708,40,35-44,Female,Los Angeles,7.51,High (7-10h),11.31,6,1.03,2.63,1.51,5.17,Productivity,19.9,50.9,29.2,1,0,Check
+709,32,25-34,Male,Chicago,10.18,Very high (10h+),8.77,25,2.52,0.33,1.92,4.77,Social,52.8,6.9,40.3,0,0,Consistent
+710,54,45-54,Male,New York,7.95,High (7-10h),7.94,16,1.56,4.86,4.27,10.69,Productivity,14.6,45.5,39.9,0,1,Check
+711,38,35-44,Female,Chicago,8.03,High (7-10h),1.55,21,2.14,1.8,3.74,7.68,Gaming,27.9,23.4,48.7,0,1,Check
+712,31,25-34,Female,Phoenix,6.58,Moderate (4-7h),10.94,28,3.23,2.39,1.36,6.98,Social,46.3,34.2,19.5,1,0,Check
+713,19,18-24,Female,New York,5.01,Moderate (4-7h),11.0,5,3.73,1.78,0.59,6.1,Social,61.1,29.2,9.7,1,0,Check
+714,28,25-34,Female,Houston,7.27,High (7-10h),9.58,16,1.16,3.41,1.26,5.83,Productivity,19.9,58.5,21.6,1,0,Check
+715,56,55+,Male,Phoenix,2.54,Light (<4h),1.08,10,2.03,3.31,4.6,9.94,Gaming,20.4,33.3,46.3,0,1,Check
+716,55,55+,Female,Phoenix,13.5,Very high (10h+),1.63,26,1.35,3.58,2.91,7.84,Productivity,17.2,45.7,37.1,0,1,Check
+717,51,45-54,Female,Chicago,10.29,Very high (10h+),3.48,29,0.99,1.34,2.67,5.0,Gaming,19.8,26.8,53.4,0,1,Check
+718,55,55+,Male,Phoenix,13.38,Very high (10h+),2.44,3,3.92,1.58,2.98,8.48,Social,46.2,18.6,35.1,0,1,Check
+719,51,45-54,Female,Los Angeles,3.95,Light (<4h),5.39,12,4.55,0.63,1.83,7.01,Social,64.9,9.0,26.1,1,1,Check
+720,35,35-44,Male,New York,12.43,Very high (10h+),11.15,20,1.85,3.28,4.04,9.17,Gaming,20.2,35.8,44.1,0,0,Consistent
+721,47,45-54,Male,Los Angeles,11.51,Very high (10h+),6.19,18,3.76,0.2,2.62,6.58,Social,57.1,3.0,39.8,0,1,Check
+722,32,25-34,Male,Chicago,9.8,High (7-10h),1.15,10,4.48,2.99,0.58,8.05,Social,55.7,37.1,7.2,0,1,Check
+723,44,35-44,Female,Chicago,9.13,High (7-10h),4.11,3,4.23,4.35,0.65,9.23,Productivity,45.8,47.1,7.0,0,1,Check
+724,51,45-54,Female,New York,5.12,Moderate (4-7h),1.49,14,0.91,4.45,2.68,8.04,Productivity,11.3,55.3,33.3,0,1,Check
+725,55,55+,Male,Phoenix,11.61,Very high (10h+),1.4,10,4.78,2.25,4.68,11.71,Social,40.8,19.2,40.0,0,1,Check
+726,50,45-54,Female,Houston,7.52,High (7-10h),4.03,26,1.88,2.3,1.54,5.72,Productivity,32.9,40.2,26.9,0,1,Check
+727,41,35-44,Female,Chicago,1.92,Light (<4h),4.03,18,1.7,0.38,4.35,6.43,Gaming,26.4,5.9,67.7,1,1,Check
+728,32,25-34,Male,New York,5.07,Moderate (4-7h),9.66,20,0.31,3.35,3.82,7.48,Gaming,4.1,44.8,51.1,1,0,Check
+729,47,45-54,Male,Houston,13.16,Very high (10h+),11.72,6,2.43,4.11,1.24,7.78,Productivity,31.2,52.8,15.9,0,0,Consistent
+730,59,55+,Female,Phoenix,12.06,Very high (10h+),5.08,8,0.55,1.22,0.18,1.95,Productivity,28.2,62.6,9.2,0,0,Consistent
+731,34,25-34,Male,Chicago,13.76,Very high (10h+),5.72,14,1.24,2.11,0.51,3.86,Productivity,32.1,54.7,13.2,0,0,Consistent
+732,22,18-24,Female,New York,9.16,High (7-10h),10.29,29,1.58,4.19,3.64,9.41,Productivity,16.8,44.5,38.7,1,0,Check
+733,46,45-54,Female,New York,4.22,Moderate (4-7h),3.95,11,4.04,4.39,1.0,9.43,Productivity,42.8,46.6,10.6,0,1,Check
+734,21,18-24,Female,New York,3.12,Light (<4h),2.72,17,4.38,1.22,1.86,7.46,Social,58.7,16.4,24.9,0,1,Check
+735,27,25-34,Female,Chicago,3.43,Light (<4h),10.38,18,1.51,2.75,2.51,6.77,Productivity,22.3,40.6,37.1,1,0,Check
+736,34,25-34,Male,Houston,1.26,Light (<4h),1.51,26,4.29,0.96,3.63,8.88,Social,48.3,10.8,40.9,1,1,Check
+737,27,25-34,Male,New York,6.08,Moderate (4-7h),7.82,14,4.29,0.51,0.57,5.37,Social,79.9,9.5,10.6,1,0,Check
+738,34,25-34,Male,Phoenix,3.49,Light (<4h),7.18,26,3.82,4.56,2.03,10.41,Productivity,36.7,43.8,19.5,1,1,Check
+739,37,35-44,Male,New York,6.35,Moderate (4-7h),4.81,25,0.73,4.1,2.43,7.26,Productivity,10.1,56.5,33.5,0,1,Check
+740,41,35-44,Female,Houston,13.15,Very high (10h+),4.47,16,3.45,3.8,2.7,9.95,Productivity,34.7,38.2,27.1,0,1,Check
+741,22,18-24,Female,Chicago,6.6,Moderate (4-7h),9.49,15,4.73,0.24,4.09,9.06,Social,52.2,2.6,45.1,1,0,Check
+742,51,45-54,Male,New York,12.41,Very high (10h+),1.95,27,3.41,4.22,0.86,8.49,Productivity,40.2,49.7,10.1,0,1,Check
+743,23,18-24,Female,New York,8.87,High (7-10h),3.6,4,1.66,2.19,4.04,7.89,Gaming,21.0,27.8,51.2,0,1,Check
+744,19,18-24,Female,Phoenix,4.21,Moderate (4-7h),9.06,5,2.5,1.71,3.46,7.67,Gaming,32.6,22.3,45.1,1,0,Check
+745,30,25-34,Female,Phoenix,5.63,Moderate (4-7h),7.03,28,3.23,2.73,2.78,8.74,Social,37.0,31.2,31.8,1,1,Check
+746,28,25-34,Male,New York,2.09,Light (<4h),2.41,26,2.55,0.46,3.5,6.51,Gaming,39.2,7.1,53.8,1,1,Check
+747,40,35-44,Male,New York,5.34,Moderate (4-7h),10.7,24,0.6,3.78,2.06,6.44,Productivity,9.3,58.7,32.0,1,0,Check
+748,33,25-34,Male,Phoenix,9.81,High (7-10h),5.33,12,1.56,2.91,0.69,5.16,Productivity,30.2,56.4,13.4,0,0,Consistent
+749,48,45-54,Female,Houston,1.94,Light (<4h),10.11,11,4.01,0.93,3.33,8.27,Social,48.5,11.2,40.3,1,0,Check
+750,28,25-34,Male,Los Angeles,3.67,Light (<4h),9.66,28,4.31,0.94,2.62,7.87,Social,54.8,11.9,33.3,1,0,Check
+751,33,25-34,Male,Los Angeles,5.96,Moderate (4-7h),7.87,22,0.69,0.92,3.2,4.81,Gaming,14.3,19.1,66.5,1,0,Check
+752,25,25-34,Male,New York,13.77,Very high (10h+),6.44,10,4.76,0.29,1.69,6.74,Social,70.6,4.3,25.1,0,1,Check
+753,21,18-24,Male,Phoenix,11.2,Very high (10h+),11.78,12,1.64,2.94,4.53,9.11,Gaming,18.0,32.3,49.7,1,0,Check
+754,57,55+,Male,Chicago,10.54,Very high (10h+),2.59,21,3.31,4.2,2.94,10.45,Productivity,31.7,40.2,28.1,0,1,Check
+755,21,18-24,Male,Chicago,2.51,Light (<4h),8.98,5,3.76,0.09,0.43,4.28,Social,87.9,2.1,10.0,1,0,Check
+756,42,35-44,Female,Los Angeles,11.15,Very high (10h+),3.1,26,4.06,0.25,2.25,6.56,Social,61.9,3.8,34.3,0,1,Check
+757,20,18-24,Female,Houston,11.21,Very high (10h+),4.72,7,4.73,2.86,3.78,11.37,Social,41.6,25.2,33.2,0,1,Check
+758,49,45-54,Male,Los Angeles,8.81,High (7-10h),4.4,5,1.56,4.1,3.97,9.63,Productivity,16.2,42.6,41.2,0,1,Check
+759,20,18-24,Male,New York,13.87,Very high (10h+),11.42,28,4.29,1.63,2.47,8.39,Social,51.1,19.4,29.4,0,0,Consistent
+760,44,35-44,Female,Houston,5.23,Moderate (4-7h),11.64,29,0.66,1.75,4.47,6.88,Gaming,9.6,25.4,65.0,1,0,Check
+761,46,45-54,Female,Chicago,13.24,Very high (10h+),3.01,18,3.53,2.98,1.34,7.85,Social,45.0,38.0,17.1,0,1,Check
+762,49,45-54,Male,Phoenix,12.89,Very high (10h+),1.24,19,3.71,1.37,2.05,7.13,Social,52.0,19.2,28.8,0,1,Check
+763,36,35-44,Male,Phoenix,1.15,Light (<4h),8.92,17,3.39,0.13,4.49,8.01,Gaming,42.3,1.6,56.1,1,0,Check
+764,38,35-44,Male,New York,6.85,Moderate (4-7h),5.6,5,1.26,3.68,4.48,9.42,Gaming,13.4,39.1,47.6,0,1,Check
+765,22,18-24,Male,Los Angeles,13.7,Very high (10h+),1.98,14,4.37,3.13,3.43,10.93,Social,40.0,28.6,31.4,0,1,Check
+766,35,35-44,Female,New York,2.34,Light (<4h),8.52,11,0.84,2.9,4.29,8.03,Gaming,10.5,36.1,53.4,1,0,Check
+767,45,45-54,Male,Phoenix,8.12,High (7-10h),7.0,23,0.27,3.71,0.44,4.42,Productivity,6.1,83.9,10.0,0,0,Consistent
+768,59,55+,Male,Chicago,13.73,Very high (10h+),11.79,14,3.59,3.38,4.32,11.29,Gaming,31.8,29.9,38.3,0,0,Consistent
+769,39,35-44,Male,Phoenix,8.22,High (7-10h),3.5,28,2.38,1.03,1.6,5.01,Social,47.5,20.6,31.9,0,1,Check
+770,38,35-44,Male,Houston,3.47,Light (<4h),5.44,17,4.25,1.76,0.89,6.9,Social,61.6,25.5,12.9,1,1,Check
+771,23,18-24,Female,Phoenix,8.57,High (7-10h),6.97,4,1.92,0.63,1.2,3.75,Social,51.2,16.8,32.0,0,0,Consistent
+772,18,18-24,Female,Phoenix,3.66,Light (<4h),9.71,25,0.84,0.65,2.09,3.58,Gaming,23.5,18.2,58.4,1,0,Check
+773,22,18-24,Female,Houston,7.76,High (7-10h),7.04,20,4.18,3.38,1.26,8.82,Social,47.4,38.3,14.3,0,1,Check
+774,58,55+,Male,Los Angeles,1.96,Light (<4h),7.74,22,2.74,4.29,1.6,8.63,Productivity,31.7,49.7,18.5,1,1,Check
+775,29,25-34,Male,Phoenix,8.87,High (7-10h),3.49,14,0.95,4.81,0.67,6.43,Productivity,14.8,74.8,10.4,0,1,Check
+776,43,35-44,Female,New York,7.72,High (7-10h),10.32,25,3.6,3.14,1.48,8.22,Social,43.8,38.2,18.0,1,0,Check
+777,51,45-54,Male,Phoenix,10.62,Very high (10h+),5.71,6,2.56,0.92,2.86,6.34,Gaming,40.4,14.5,45.1,0,1,Check
+778,31,25-34,Male,New York,9.2,High (7-10h),2.55,25,3.02,0.53,2.21,5.76,Social,52.4,9.2,38.4,0,1,Check
+779,43,35-44,Female,Houston,8.14,High (7-10h),8.31,18,2.3,4.06,1.73,8.09,Productivity,28.4,50.2,21.4,1,0,Check
+780,44,35-44,Female,Phoenix,9.97,High (7-10h),3.38,25,4.14,2.89,3.73,10.76,Social,38.5,26.9,34.7,0,1,Check
+781,26,25-34,Female,Houston,2.87,Light (<4h),2.07,18,4.15,3.09,4.47,11.71,Gaming,35.4,26.4,38.2,0,1,Check
+782,43,35-44,Female,Houston,8.74,High (7-10h),10.48,3,3.55,3.91,3.78,11.24,Productivity,31.6,34.8,33.6,1,1,Check
+783,39,35-44,Male,Los Angeles,3.24,Light (<4h),6.06,24,0.53,3.52,1.66,5.71,Productivity,9.3,61.6,29.1,1,0,Check
+784,47,45-54,Male,Phoenix,13.03,Very high (10h+),9.24,27,4.19,4.17,3.72,12.08,Social,34.7,34.5,30.8,0,1,Check
+785,34,25-34,Female,New York,1.89,Light (<4h),4.2,4,3.36,0.28,0.76,4.4,Social,76.4,6.4,17.3,1,1,Check
+786,43,35-44,Male,New York,6.59,Moderate (4-7h),9.66,5,3.49,3.74,0.65,7.88,Productivity,44.3,47.5,8.2,1,0,Check
+787,53,45-54,Female,Phoenix,10.05,Very high (10h+),2.23,28,1.81,4.25,1.73,7.79,Productivity,23.2,54.6,22.2,0,1,Check
+788,18,18-24,Female,Los Angeles,6.95,Moderate (4-7h),4.92,23,4.4,1.43,4.04,9.87,Social,44.6,14.5,40.9,0,1,Check
+789,25,25-34,Male,Los Angeles,2.2,Light (<4h),11.76,27,3.63,3.2,1.23,8.06,Social,45.0,39.7,15.3,1,0,Check
+790,52,45-54,Female,Los Angeles,8.19,High (7-10h),9.73,22,0.56,1.57,0.32,2.45,Productivity,22.9,64.1,13.1,1,0,Check
+791,32,25-34,Male,New York,9.34,High (7-10h),6.47,19,2.04,4.79,0.66,7.49,Productivity,27.2,64.0,8.8,0,1,Check
+792,39,35-44,Male,Houston,10.15,Very high (10h+),4.74,22,4.43,0.17,4.29,8.89,Social,49.8,1.9,48.3,0,1,Check
+793,31,25-34,Male,Los Angeles,5.85,Moderate (4-7h),10.59,24,0.24,2.9,3.17,6.31,Gaming,3.8,46.0,50.2,1,0,Check
+794,43,35-44,Male,New York,8.33,High (7-10h),6.99,23,4.81,0.83,1.27,6.91,Social,69.6,12.0,18.4,0,0,Consistent
+795,45,45-54,Female,New York,6.86,Moderate (4-7h),9.34,3,3.4,3.56,2.78,9.74,Productivity,34.9,36.6,28.5,1,1,Check
+796,40,35-44,Male,Houston,9.74,High (7-10h),9.3,22,3.16,0.88,2.64,6.68,Social,47.3,13.2,39.5,0,0,Consistent
+797,31,25-34,Female,Phoenix,8.59,High (7-10h),1.2,8,1.35,1.18,3.28,5.81,Gaming,23.2,20.3,56.5,0,1,Check
+798,41,35-44,Female,Phoenix,7.83,High (7-10h),2.39,17,1.24,2.47,1.17,4.88,Productivity,25.4,50.6,24.0,0,1,Check
+799,19,18-24,Female,Los Angeles,4.24,Moderate (4-7h),8.26,28,4.71,4.57,4.32,13.6,Social,34.6,33.6,31.8,1,1,Check
+800,43,35-44,Female,Los Angeles,1.03,Light (<4h),2.78,28,1.49,1.06,1.55,4.1,Gaming,36.3,25.9,37.8,1,1,Check
+801,31,25-34,Male,Houston,3.26,Light (<4h),3.81,16,3.88,0.72,3.47,8.07,Social,48.1,8.9,43.0,1,1,Check
+802,24,18-24,Male,Los Angeles,2.52,Light (<4h),11.41,22,1.97,3.79,0.08,5.84,Productivity,33.7,64.9,1.4,1,0,Check
+803,20,18-24,Female,Houston,6.84,Moderate (4-7h),7.16,17,0.7,2.5,1.86,5.06,Productivity,13.8,49.4,36.8,1,0,Check
+804,40,35-44,Female,New York,8.96,High (7-10h),9.26,16,0.05,4.56,1.76,6.37,Productivity,0.8,71.6,27.6,1,0,Check
+805,35,35-44,Male,Los Angeles,3.77,Light (<4h),7.14,27,2.72,0.73,2.72,6.17,Social,44.1,11.8,44.1,1,0,Check
+806,55,55+,Female,New York,13.21,Very high (10h+),7.08,23,4.88,3.23,0.36,8.47,Social,57.6,38.1,4.3,0,1,Check
+807,52,45-54,Male,Chicago,1.09,Light (<4h),2.04,26,1.85,1.16,3.95,6.96,Gaming,26.6,16.7,56.8,1,1,Check
+808,32,25-34,Female,Houston,11.04,Very high (10h+),4.78,27,1.79,0.78,1.09,3.66,Social,48.9,21.3,29.8,0,0,Consistent
+809,42,35-44,Male,Chicago,9.13,High (7-10h),4.11,28,1.72,3.42,3.39,8.53,Productivity,20.2,40.1,39.7,0,1,Check
+810,54,45-54,Female,Los Angeles,5.86,Moderate (4-7h),5.3,7,2.6,2.97,4.02,9.59,Gaming,27.1,31.0,41.9,0,1,Check
+811,45,45-54,Female,New York,1.66,Light (<4h),9.78,8,2.2,3.77,2.81,8.78,Productivity,25.1,42.9,32.0,1,0,Check
+812,27,25-34,Male,Los Angeles,9.16,High (7-10h),5.09,19,4.4,1.55,3.7,9.65,Social,45.6,16.1,38.3,0,1,Check
+813,56,55+,Female,Chicago,6.01,Moderate (4-7h),5.97,13,2.53,2.24,3.31,8.08,Gaming,31.3,27.7,41.0,0,1,Check
+814,34,25-34,Female,Los Angeles,13.17,Very high (10h+),5.37,18,2.54,2.03,1.78,6.35,Social,40.0,32.0,28.0,0,1,Check
+815,56,55+,Male,Phoenix,8.05,High (7-10h),2.03,14,0.69,4.92,4.04,9.65,Productivity,7.2,51.0,41.9,0,1,Check
+816,39,35-44,Female,Chicago,13.22,Very high (10h+),5.85,17,4.91,1.46,1.47,7.84,Social,62.6,18.6,18.8,0,1,Check
+817,43,35-44,Male,Los Angeles,3.87,Light (<4h),3.15,25,1.25,1.47,2.86,5.58,Gaming,22.4,26.3,51.3,0,1,Check
+818,42,35-44,Male,New York,10.43,Very high (10h+),3.05,6,0.37,1.77,3.73,5.87,Gaming,6.3,30.2,63.5,0,1,Check
+819,34,25-34,Female,Los Angeles,9.02,High (7-10h),2.03,29,3.32,2.82,1.89,8.03,Social,41.3,35.1,23.5,0,1,Check
+820,30,25-34,Female,New York,10.61,Very high (10h+),4.92,20,2.98,1.26,1.51,5.75,Social,51.8,21.9,26.3,0,1,Check
+821,37,35-44,Female,Phoenix,3.79,Light (<4h),9.33,23,2.08,4.58,2.3,8.96,Productivity,23.2,51.1,25.7,1,0,Check
+822,42,35-44,Female,Los Angeles,9.64,High (7-10h),4.04,5,2.11,1.33,4.09,7.53,Gaming,28.0,17.7,54.3,0,1,Check
+823,21,18-24,Female,Phoenix,7.47,High (7-10h),4.44,24,3.93,4.48,4.65,13.06,Gaming,30.1,34.3,35.6,0,1,Check
+824,27,25-34,Female,Chicago,10.66,Very high (10h+),8.07,10,0.98,0.52,2.73,4.23,Gaming,23.2,12.3,64.5,0,0,Consistent
+825,20,18-24,Female,New York,5.25,Moderate (4-7h),3.15,25,4.1,3.28,3.31,10.69,Social,38.4,30.7,31.0,0,1,Check
+826,58,55+,Male,Chicago,12.57,Very high (10h+),10.87,5,3.24,4.53,4.52,12.29,Productivity,26.4,36.9,36.8,0,1,Check
+827,35,35-44,Female,New York,2.1,Light (<4h),6.72,10,2.09,0.84,0.49,3.42,Social,61.1,24.6,14.3,1,0,Check
+828,53,45-54,Male,Phoenix,11.49,Very high (10h+),5.92,20,2.29,4.84,1.16,8.29,Productivity,27.6,58.4,14.0,0,1,Check
+829,39,35-44,Female,Houston,12.2,Very high (10h+),7.14,12,1.28,2.26,3.54,7.08,Gaming,18.1,31.9,50.0,0,0,Consistent
+830,51,45-54,Female,Los Angeles,11.62,Very high (10h+),2.83,27,3.76,4.73,4.12,12.61,Productivity,29.8,37.5,32.7,0,1,Check
+831,25,25-34,Male,Phoenix,7.67,High (7-10h),7.75,22,2.56,3.38,4.29,10.23,Gaming,25.0,33.0,41.9,1,1,Check
+832,57,55+,Female,New York,6.7,Moderate (4-7h),4.99,19,1.6,1.51,2.08,5.19,Gaming,30.8,29.1,40.1,0,1,Check
+833,36,35-44,Female,New York,13.95,Very high (10h+),10.87,10,2.98,0.94,0.45,4.37,Social,68.2,21.5,10.3,0,0,Consistent
+834,59,55+,Male,New York,3.98,Light (<4h),2.86,25,4.98,1.52,2.19,8.69,Social,57.3,17.5,25.2,0,1,Check
+835,58,55+,Female,New York,8.11,High (7-10h),6.58,13,2.18,0.47,1.15,3.8,Social,57.4,12.4,30.3,0,0,Consistent
+836,54,45-54,Female,Los Angeles,9.72,High (7-10h),7.58,7,4.6,0.72,1.46,6.78,Social,67.8,10.6,21.5,0,0,Consistent
+837,23,18-24,Female,Chicago,10.11,Very high (10h+),1.37,28,1.73,0.52,3.86,6.11,Gaming,28.3,8.5,63.2,0,1,Check
+838,43,35-44,Male,Houston,3.65,Light (<4h),5.0,15,0.27,2.11,0.38,2.76,Productivity,9.8,76.4,13.8,1,0,Check
+839,51,45-54,Female,Los Angeles,9.5,High (7-10h),9.06,23,1.02,3.98,4.14,9.14,Gaming,11.2,43.5,45.3,0,1,Check
+840,23,18-24,Female,New York,11.64,Very high (10h+),10.02,25,2.09,0.71,2.14,4.94,Gaming,42.3,14.4,43.3,0,0,Consistent
+841,54,45-54,Female,Los Angeles,1.65,Light (<4h),4.44,7,1.1,0.65,2.98,4.73,Gaming,23.3,13.7,63.0,1,1,Check
+842,50,45-54,Female,Phoenix,12.85,Very high (10h+),9.78,26,0.0,3.22,0.45,3.67,Productivity,0.0,87.7,12.3,0,0,Consistent
+843,39,35-44,Male,New York,1.38,Light (<4h),11.65,29,4.58,0.99,1.69,7.26,Social,63.1,13.6,23.3,1,0,Check
+844,38,35-44,Male,Houston,5.63,Moderate (4-7h),10.43,15,4.22,0.49,0.45,5.16,Social,81.8,9.5,8.7,1,0,Check
+845,23,18-24,Female,New York,1.21,Light (<4h),2.29,8,3.71,0.83,4.81,9.35,Gaming,39.7,8.9,51.4,1,1,Check
+846,23,18-24,Female,Houston,2.0,Light (<4h),9.14,7,0.84,4.62,4.04,9.5,Productivity,8.8,48.6,42.5,1,1,Check
+847,21,18-24,Male,Houston,12.85,Very high (10h+),4.52,11,0.6,4.11,2.3,7.01,Productivity,8.6,58.6,32.8,0,1,Check
+848,47,45-54,Male,Chicago,5.61,Moderate (4-7h),11.87,29,0.34,1.77,1.12,3.23,Productivity,10.5,54.8,34.7,1,0,Check
+849,28,25-34,Female,Chicago,6.52,Moderate (4-7h),6.34,18,3.62,3.28,4.67,11.57,Gaming,31.3,28.3,40.4,0,1,Check
+850,47,45-54,Male,Los Angeles,3.8,Light (<4h),2.35,4,4.64,2.69,1.72,9.05,Social,51.3,29.7,19.0,0,1,Check
+851,48,45-54,Female,Los Angeles,8.76,High (7-10h),8.98,3,2.15,3.39,0.8,6.34,Productivity,33.9,53.5,12.6,1,0,Check
+852,41,35-44,Male,Houston,8.73,High (7-10h),4.55,10,0.6,3.41,2.82,6.83,Productivity,8.8,49.9,41.3,0,1,Check
+853,26,25-34,Male,New York,5.84,Moderate (4-7h),11.97,21,2.56,3.14,4.72,10.42,Gaming,24.6,30.1,45.3,1,0,Check
+854,20,18-24,Male,Phoenix,5.33,Moderate (4-7h),11.78,13,1.74,1.33,0.02,3.09,Social,56.3,43.0,0.6,1,0,Check
+855,48,45-54,Male,Phoenix,12.5,Very high (10h+),8.22,14,1.87,0.2,1.19,3.26,Social,57.4,6.1,36.5,0,0,Consistent
+856,57,55+,Female,New York,5.98,Moderate (4-7h),2.43,14,3.11,2.28,4.69,10.08,Gaming,30.9,22.6,46.5,0,1,Check
+857,54,45-54,Male,New York,7.42,High (7-10h),8.56,9,3.59,4.45,0.86,8.9,Productivity,40.3,50.0,9.7,1,1,Check
+858,53,45-54,Male,Chicago,4.68,Moderate (4-7h),2.02,28,0.55,2.85,0.57,3.97,Productivity,13.9,71.8,14.4,0,1,Check
+859,41,35-44,Female,Phoenix,11.23,Very high (10h+),1.32,15,0.18,4.16,2.85,7.19,Productivity,2.5,57.9,39.6,0,1,Check
+860,48,45-54,Male,Houston,6.17,Moderate (4-7h),10.05,29,4.97,4.96,4.31,14.24,Social,34.9,34.8,30.3,1,1,Check
+861,23,18-24,Male,Los Angeles,7.68,High (7-10h),3.31,10,1.16,0.82,2.39,4.37,Gaming,26.5,18.8,54.7,0,1,Check
+862,19,18-24,Female,Chicago,4.29,Moderate (4-7h),5.17,24,0.27,3.46,4.97,8.7,Gaming,3.1,39.8,57.1,1,1,Check
+863,37,35-44,Male,Phoenix,13.84,Very high (10h+),11.71,28,0.95,3.37,3.4,7.72,Gaming,12.3,43.7,44.0,0,0,Consistent
+864,45,45-54,Female,New York,4.79,Moderate (4-7h),4.71,11,0.19,4.9,0.37,5.46,Productivity,3.5,89.7,6.8,0,1,Check
+865,28,25-34,Female,Phoenix,11.02,Very high (10h+),4.26,9,1.96,4.93,4.96,11.85,Gaming,16.5,41.6,41.9,0,1,Check
+866,21,18-24,Female,Houston,6.56,Moderate (4-7h),11.1,28,4.01,3.43,2.04,9.48,Social,42.3,36.2,21.5,1,0,Check
+867,32,25-34,Female,Chicago,3.68,Light (<4h),2.22,23,1.71,1.22,1.44,4.37,Social,39.1,27.9,33.0,0,1,Check
+868,23,18-24,Male,New York,11.4,Very high (10h+),9.36,26,2.22,3.99,2.79,9.0,Productivity,24.7,44.3,31.0,0,0,Consistent
+869,47,45-54,Female,Houston,5.34,Moderate (4-7h),11.87,17,3.38,0.54,1.52,5.44,Social,62.1,9.9,27.9,1,0,Check
+870,55,55+,Male,Los Angeles,12.25,Very high (10h+),10.91,4,2.54,3.9,0.43,6.87,Productivity,37.0,56.8,6.3,0,0,Consistent
+871,19,18-24,Male,Chicago,12.9,Very high (10h+),8.17,25,4.31,4.55,0.01,8.87,Productivity,48.6,51.3,0.1,0,1,Check
+872,32,25-34,Male,Houston,12.18,Very high (10h+),4.45,22,4.33,1.91,2.25,8.49,Social,51.0,22.5,26.5,0,1,Check
+873,28,25-34,Male,Houston,1.46,Light (<4h),3.8,27,0.05,3.15,4.18,7.38,Gaming,0.7,42.7,56.6,1,1,Check
+874,25,25-34,Male,New York,11.24,Very high (10h+),10.01,14,3.89,2.15,2.86,8.9,Social,43.7,24.2,32.1,0,0,Consistent
+875,43,35-44,Male,Los Angeles,6.35,Moderate (4-7h),10.68,3,2.3,2.19,5.0,9.49,Gaming,24.2,23.1,52.7,1,0,Check
+876,22,18-24,Male,Houston,12.36,Very high (10h+),6.78,25,4.94,1.55,1.43,7.92,Social,62.4,19.6,18.1,0,1,Check
+877,23,18-24,Male,Chicago,9.29,High (7-10h),3.69,24,2.42,3.81,1.4,7.63,Productivity,31.7,49.9,18.3,0,1,Check
+878,43,35-44,Male,Houston,11.84,Very high (10h+),2.24,10,4.93,4.68,0.8,10.41,Social,47.4,45.0,7.7,0,1,Check
+879,21,18-24,Male,Phoenix,7.49,High (7-10h),1.96,7,3.77,4.7,0.82,9.29,Productivity,40.6,50.6,8.8,0,1,Check
+880,36,35-44,Female,Chicago,7.96,High (7-10h),8.91,17,1.24,0.87,1.43,3.54,Gaming,35.0,24.6,40.4,1,0,Check
+881,37,35-44,Female,Chicago,2.88,Light (<4h),5.62,3,2.69,4.37,3.96,11.02,Productivity,24.4,39.7,35.9,1,1,Check
+882,50,45-54,Female,Houston,11.19,Very high (10h+),10.96,3,4.96,3.69,4.53,13.18,Social,37.6,28.0,34.4,0,1,Check
+883,37,35-44,Male,New York,6.45,Moderate (4-7h),9.14,27,4.29,1.26,4.88,10.43,Gaming,41.1,12.1,46.8,1,1,Check
+884,29,25-34,Female,Chicago,7.5,High (7-10h),3.1,12,0.49,0.34,1.16,1.99,Gaming,24.6,17.1,58.3,0,0,Consistent
+885,18,18-24,Female,Phoenix,11.21,Very high (10h+),7.75,24,3.53,1.34,4.41,9.28,Gaming,38.0,14.4,47.5,0,1,Check
+886,43,35-44,Female,New York,8.78,High (7-10h),5.79,12,1.73,4.56,1.64,7.93,Productivity,21.8,57.5,20.7,0,1,Check
+887,31,25-34,Male,New York,3.61,Light (<4h),7.35,23,0.03,3.17,0.56,3.76,Productivity,0.8,84.3,14.9,1,0,Check
+888,55,55+,Male,New York,8.67,High (7-10h),9.12,17,2.02,3.61,4.35,9.98,Gaming,20.2,36.2,43.6,1,1,Check
+889,54,45-54,Male,Chicago,6.3,Moderate (4-7h),9.87,19,1.17,1.29,3.18,5.64,Gaming,20.7,22.9,56.4,1,0,Check
+890,28,25-34,Male,New York,7.1,High (7-10h),10.28,24,4.09,3.6,0.82,8.51,Social,48.1,42.3,9.6,1,0,Check
+891,53,45-54,Female,Houston,1.37,Light (<4h),3.79,8,1.69,0.14,2.15,3.98,Gaming,42.5,3.5,54.0,1,1,Check
+892,30,25-34,Female,New York,3.73,Light (<4h),1.34,5,4.14,1.88,1.44,7.46,Social,55.5,25.2,19.3,0,1,Check
+893,20,18-24,Female,Phoenix,4.65,Moderate (4-7h),9.13,15,0.0,3.13,3.68,6.81,Gaming,0.0,46.0,54.0,1,0,Check
+894,50,45-54,Female,Los Angeles,10.27,Very high (10h+),2.17,18,1.54,0.73,2.27,4.54,Gaming,33.9,16.1,50.0,0,1,Check
+895,23,18-24,Male,Phoenix,1.15,Light (<4h),4.46,10,1.21,4.12,4.95,10.28,Gaming,11.8,40.1,48.2,1,1,Check
+896,27,25-34,Male,Chicago,6.31,Moderate (4-7h),1.04,17,1.17,1.18,0.27,2.62,Productivity,44.7,45.0,10.3,0,1,Check
+897,22,18-24,Male,New York,13.01,Very high (10h+),8.5,19,0.34,3.26,1.78,5.38,Productivity,6.3,60.6,33.1,0,0,Consistent
+898,40,35-44,Female,New York,2.45,Light (<4h),2.84,19,0.94,2.03,2.41,5.38,Gaming,17.5,37.7,44.8,1,1,Check
+899,27,25-34,Male,Houston,7.71,High (7-10h),8.21,24,2.78,2.98,2.52,8.28,Productivity,33.6,36.0,30.4,1,1,Check
+900,19,18-24,Male,New York,11.22,Very high (10h+),11.91,28,1.46,0.54,1.58,3.58,Gaming,40.8,15.1,44.1,1,0,Check
+901,30,25-34,Female,Phoenix,13.25,Very high (10h+),1.8,15,2.09,0.08,3.65,5.82,Gaming,35.9,1.4,62.7,0,1,Check
+902,57,55+,Female,Chicago,10.71,Very high (10h+),1.85,19,1.88,4.55,4.37,10.8,Productivity,17.4,42.1,40.5,0,1,Check
+903,19,18-24,Male,Los Angeles,10.37,Very high (10h+),4.74,8,4.38,1.35,4.69,10.42,Gaming,42.0,13.0,45.0,0,1,Check
+904,37,35-44,Male,New York,11.74,Very high (10h+),10.53,19,4.53,4.1,4.03,12.66,Social,35.8,32.4,31.8,0,1,Check
+905,18,18-24,Male,Los Angeles,6.8,Moderate (4-7h),3.37,18,2.46,5.0,4.25,11.71,Productivity,21.0,42.7,36.3,0,1,Check
+906,54,45-54,Male,New York,11.48,Very high (10h+),4.96,16,1.65,1.06,2.75,5.46,Gaming,30.2,19.4,50.4,0,1,Check
+907,26,25-34,Male,Chicago,1.1,Light (<4h),1.75,15,0.53,1.33,4.13,5.99,Gaming,8.8,22.2,68.9,1,1,Check
+908,34,25-34,Male,Phoenix,13.02,Very high (10h+),9.39,8,4.77,3.31,1.52,9.6,Social,49.7,34.5,15.8,0,1,Check
+909,26,25-34,Female,Chicago,6.76,Moderate (4-7h),5.49,5,0.3,4.83,1.99,7.12,Productivity,4.2,67.8,27.9,0,1,Check
+910,28,25-34,Female,Los Angeles,8.19,High (7-10h),9.35,16,1.49,4.58,1.58,7.65,Productivity,19.5,59.9,20.7,1,0,Check
+911,32,25-34,Female,New York,4.31,Moderate (4-7h),10.94,16,1.49,2.51,2.34,6.34,Productivity,23.5,39.6,36.9,1,0,Check
+912,41,35-44,Male,Los Angeles,10.65,Very high (10h+),3.56,17,1.6,3.98,1.43,7.01,Productivity,22.8,56.8,20.4,0,1,Check
+913,55,55+,Female,Phoenix,2.0,Light (<4h),9.88,10,0.82,0.68,4.81,6.31,Gaming,13.0,10.8,76.2,1,0,Check
+914,52,45-54,Male,Chicago,12.34,Very high (10h+),1.65,17,3.92,4.89,1.56,10.37,Productivity,37.8,47.2,15.0,0,1,Check
+915,47,45-54,Male,Los Angeles,11.77,Very high (10h+),10.89,24,0.61,4.82,0.49,5.92,Productivity,10.3,81.4,8.3,0,0,Consistent
+916,48,45-54,Female,Los Angeles,3.81,Light (<4h),8.16,29,3.17,0.82,2.63,6.62,Social,47.9,12.4,39.7,1,0,Check
+917,22,18-24,Male,Phoenix,11.52,Very high (10h+),10.62,15,0.62,1.5,0.29,2.41,Productivity,25.7,62.2,12.0,0,0,Consistent
+918,31,25-34,Male,New York,11.22,Very high (10h+),1.0,19,0.35,0.5,0.55,1.4,Gaming,25.0,35.7,39.3,0,1,Check
+919,28,25-34,Female,Los Angeles,9.22,High (7-10h),2.86,23,4.55,1.36,1.1,7.01,Social,64.9,19.4,15.7,0,1,Check
+920,26,25-34,Female,Phoenix,5.86,Moderate (4-7h),5.29,26,0.95,4.08,2.32,7.35,Productivity,12.9,55.5,31.6,0,1,Check
+921,51,45-54,Female,New York,4.53,Moderate (4-7h),5.17,5,4.11,1.89,2.17,8.17,Social,50.3,23.1,26.6,1,1,Check
+922,29,25-34,Male,New York,4.01,Moderate (4-7h),3.49,8,2.72,0.44,4.0,7.16,Gaming,38.0,6.1,55.9,0,1,Check
+923,52,45-54,Female,Chicago,5.14,Moderate (4-7h),5.2,7,0.39,1.71,3.7,5.8,Gaming,6.7,29.5,63.8,1,1,Check
+924,52,45-54,Female,Phoenix,12.75,Very high (10h+),2.42,24,4.78,4.91,2.13,11.82,Productivity,40.4,41.5,18.0,0,1,Check
+925,18,18-24,Male,New York,2.01,Light (<4h),5.54,28,1.23,3.15,1.67,6.05,Productivity,20.3,52.1,27.6,1,1,Check
+926,57,55+,Female,Chicago,11.78,Very high (10h+),9.83,19,4.3,2.08,1.58,7.96,Social,54.0,26.1,19.8,0,0,Consistent
+927,39,35-44,Female,Houston,5.54,Moderate (4-7h),6.27,25,0.84,0.83,3.87,5.54,Gaming,15.2,15.0,69.9,1,0,Check
+928,46,45-54,Female,Phoenix,7.78,High (7-10h),1.2,27,4.27,4.93,0.26,9.46,Productivity,45.1,52.1,2.7,0,1,Check
+929,25,25-34,Male,Houston,11.33,Very high (10h+),5.64,4,0.07,4.1,0.06,4.23,Productivity,1.7,96.9,1.4,0,0,Consistent
+930,28,25-34,Male,New York,12.5,Very high (10h+),1.3,28,2.56,1.41,3.98,7.95,Gaming,32.2,17.7,50.1,0,1,Check
+931,58,55+,Male,Phoenix,5.48,Moderate (4-7h),11.63,17,3.85,0.35,2.39,6.59,Social,58.4,5.3,36.3,1,0,Check
+932,54,45-54,Male,Chicago,7.0,High (7-10h),2.4,7,4.67,0.28,0.65,5.6,Social,83.4,5.0,11.6,0,1,Check
+933,31,25-34,Female,New York,6.39,Moderate (4-7h),8.78,28,4.55,0.6,1.18,6.33,Social,71.9,9.5,18.6,1,0,Check
+934,47,45-54,Male,Phoenix,1.17,Light (<4h),11.7,22,4.1,2.9,4.66,11.66,Gaming,35.2,24.9,40.0,1,0,Check
+935,52,45-54,Male,Phoenix,4.85,Moderate (4-7h),10.09,8,4.44,4.64,4.3,13.38,Productivity,33.2,34.7,32.1,1,1,Check
+936,38,35-44,Female,Houston,6.97,Moderate (4-7h),8.69,8,1.0,2.48,3.55,7.03,Gaming,14.2,35.3,50.5,1,0,Check
+937,54,45-54,Female,New York,6.34,Moderate (4-7h),10.23,29,1.42,4.21,2.41,8.04,Productivity,17.7,52.4,30.0,1,0,Check
+938,22,18-24,Female,Chicago,10.39,Very high (10h+),11.8,20,1.44,2.23,2.6,6.27,Gaming,23.0,35.6,41.5,1,0,Check
+939,36,35-44,Male,Chicago,6.0,Moderate (4-7h),7.83,20,1.89,3.54,4.88,10.31,Gaming,18.3,34.3,47.3,1,1,Check
+940,31,25-34,Male,New York,7.36,High (7-10h),7.15,6,1.97,3.66,4.83,10.46,Gaming,18.8,35.0,46.2,0,1,Check
+941,43,35-44,Male,New York,6.58,Moderate (4-7h),7.91,19,2.72,0.87,1.08,4.67,Social,58.2,18.6,23.1,1,0,Check
+942,21,18-24,Female,Los Angeles,10.63,Very high (10h+),6.86,27,0.8,1.81,4.06,6.67,Gaming,12.0,27.1,60.9,0,0,Consistent
+943,42,35-44,Female,Houston,12.22,Very high (10h+),7.99,16,3.46,3.19,0.99,7.64,Social,45.3,41.8,13.0,0,0,Consistent
+944,59,55+,Male,New York,7.91,High (7-10h),5.95,16,0.84,0.35,1.07,2.26,Gaming,37.2,15.5,47.3,0,0,Consistent
+945,42,35-44,Female,New York,11.26,Very high (10h+),3.4,15,1.55,1.81,3.38,6.74,Gaming,23.0,26.9,50.1,0,1,Check
+946,35,35-44,Female,Los Angeles,4.86,Moderate (4-7h),2.32,9,2.52,2.67,2.03,7.22,Productivity,34.9,37.0,28.1,0,1,Check
+947,57,55+,Female,Los Angeles,8.04,High (7-10h),1.75,14,3.98,4.98,4.66,13.62,Productivity,29.2,36.6,34.2,0,1,Check
+948,25,25-34,Male,Phoenix,5.49,Moderate (4-7h),3.9,25,3.7,2.37,0.45,6.52,Social,56.7,36.3,6.9,0,1,Check
+949,56,55+,Female,Chicago,6.38,Moderate (4-7h),1.51,17,3.23,4.08,2.56,9.87,Productivity,32.7,41.3,25.9,0,1,Check
+950,57,55+,Female,Houston,10.52,Very high (10h+),7.24,21,0.78,2.16,4.59,7.53,Gaming,10.4,28.7,61.0,0,1,Check
+951,31,25-34,Male,Phoenix,12.46,Very high (10h+),4.12,13,2.74,3.98,4.52,11.24,Gaming,24.4,35.4,40.2,0,1,Check
+952,49,45-54,Male,New York,2.58,Light (<4h),10.07,17,0.44,2.98,0.78,4.2,Productivity,10.5,71.0,18.6,1,0,Check
+953,55,55+,Female,Los Angeles,9.25,High (7-10h),1.82,14,1.89,4.43,1.83,8.15,Productivity,23.2,54.4,22.5,0,1,Check
+954,50,45-54,Female,Chicago,8.57,High (7-10h),3.49,5,2.07,2.05,3.1,7.22,Gaming,28.7,28.4,42.9,0,1,Check
+955,40,35-44,Male,Phoenix,2.54,Light (<4h),9.03,19,0.2,3.02,0.8,4.02,Productivity,5.0,75.1,19.9,1,0,Check
+956,32,25-34,Male,Chicago,3.75,Light (<4h),7.59,5,1.37,3.15,4.84,9.36,Gaming,14.6,33.7,51.7,1,1,Check
+957,50,45-54,Female,Los Angeles,5.04,Moderate (4-7h),1.71,21,4.78,2.09,4.57,11.44,Social,41.8,18.3,39.9,0,1,Check
+958,42,35-44,Female,Phoenix,3.17,Light (<4h),10.65,22,4.77,0.72,0.83,6.32,Social,75.5,11.4,13.1,1,0,Check
+959,34,25-34,Female,Phoenix,4.17,Moderate (4-7h),10.65,6,1.76,0.47,0.61,2.84,Social,62.0,16.5,21.5,1,0,Check
+960,50,45-54,Female,Chicago,4.48,Moderate (4-7h),4.63,5,0.22,0.08,0.43,0.73,Gaming,30.1,11.0,58.9,1,0,Check
+961,19,18-24,Male,Los Angeles,5.36,Moderate (4-7h),4.74,28,0.9,4.37,4.55,9.82,Gaming,9.2,44.5,46.3,0,1,Check
+962,31,25-34,Female,New York,10.74,Very high (10h+),11.88,18,1.96,1.18,0.97,4.11,Social,47.7,28.7,23.6,1,0,Check
+963,57,55+,Female,Phoenix,8.43,High (7-10h),7.89,14,4.74,1.06,2.08,7.88,Social,60.2,13.5,26.4,0,0,Consistent
+964,57,55+,Male,New York,13.82,Very high (10h+),6.84,10,0.71,3.68,2.24,6.63,Productivity,10.7,55.5,33.8,0,0,Consistent
+965,56,55+,Female,Los Angeles,6.39,Moderate (4-7h),10.22,26,3.82,1.6,3.0,8.42,Social,45.4,19.0,35.6,1,0,Check
+966,23,18-24,Male,Phoenix,10.8,Very high (10h+),4.14,19,0.54,2.53,0.36,3.43,Productivity,15.7,73.8,10.5,0,0,Consistent
+967,23,18-24,Female,Phoenix,12.33,Very high (10h+),5.72,9,4.91,0.81,1.13,6.85,Social,71.7,11.8,16.5,0,1,Check
+968,20,18-24,Female,New York,9.83,High (7-10h),3.95,13,1.91,4.8,4.66,11.37,Productivity,16.8,42.2,41.0,0,1,Check
+969,24,18-24,Male,Houston,6.35,Moderate (4-7h),9.68,20,3.88,4.26,4.54,12.68,Gaming,30.6,33.6,35.8,1,1,Check
+970,25,25-34,Male,New York,10.8,Very high (10h+),7.31,3,1.71,4.32,3.91,9.94,Productivity,17.2,43.5,39.3,0,1,Check
+971,59,55+,Female,New York,3.65,Light (<4h),8.25,5,3.14,2.03,0.1,5.27,Social,59.6,38.5,1.9,1,0,Check
+972,32,25-34,Female,Houston,5.26,Moderate (4-7h),3.78,6,0.96,3.81,1.64,6.41,Productivity,15.0,59.4,25.6,0,1,Check
+973,46,45-54,Female,Los Angeles,8.11,High (7-10h),3.42,15,0.73,0.72,3.14,4.59,Gaming,15.9,15.7,68.4,0,1,Check
+974,50,45-54,Male,Los Angeles,8.48,High (7-10h),6.37,8,4.69,0.04,1.38,6.11,Social,76.8,0.7,22.6,0,0,Consistent
+975,47,45-54,Female,Phoenix,1.29,Light (<4h),9.11,28,4.59,0.1,4.55,9.24,Social,49.7,1.1,49.2,1,1,Check
+976,56,55+,Male,Chicago,13.29,Very high (10h+),6.78,16,4.44,2.93,3.17,10.54,Social,42.1,27.8,30.1,0,1,Check
+977,44,35-44,Male,Chicago,10.06,Very high (10h+),1.36,7,3.13,2.28,0.36,5.77,Social,54.2,39.5,6.2,0,1,Check
+978,53,45-54,Female,Phoenix,7.44,High (7-10h),10.55,18,4.04,2.59,4.55,11.18,Gaming,36.1,23.2,40.7,1,1,Check
+979,46,45-54,Male,Chicago,13.13,Very high (10h+),1.71,17,0.35,0.04,4.79,5.18,Gaming,6.8,0.8,92.5,0,1,Check
+980,55,55+,Female,New York,6.71,Moderate (4-7h),11.51,17,1.67,2.11,0.39,4.17,Productivity,40.0,50.6,9.4,1,0,Check
+981,50,45-54,Female,New York,13.75,Very high (10h+),1.28,6,1.57,3.59,2.66,7.82,Productivity,20.1,45.9,34.0,0,1,Check
+982,54,45-54,Female,Houston,7.66,High (7-10h),8.64,10,3.18,2.21,1.52,6.91,Social,46.0,32.0,22.0,1,0,Check
+983,44,35-44,Female,Houston,2.49,Light (<4h),1.9,29,1.78,3.66,1.96,7.4,Productivity,24.1,49.5,26.5,0,1,Check
+984,50,45-54,Female,Phoenix,10.94,Very high (10h+),11.02,18,0.74,1.17,0.9,2.81,Productivity,26.3,41.6,32.0,1,0,Check
+985,21,18-24,Male,Phoenix,9.83,High (7-10h),6.11,18,2.98,4.07,2.89,9.94,Productivity,30.0,40.9,29.1,0,1,Check
+986,39,35-44,Male,Phoenix,11.05,Very high (10h+),2.51,6,4.07,2.94,4.79,11.8,Gaming,34.5,24.9,40.6,0,1,Check
+987,19,18-24,Female,New York,13.37,Very high (10h+),4.75,15,1.91,1.05,2.52,5.48,Gaming,34.9,19.2,46.0,0,1,Check
+988,27,25-34,Female,Chicago,11.09,Very high (10h+),2.81,28,0.66,1.18,0.41,2.25,Productivity,29.3,52.4,18.2,0,0,Consistent
+989,22,18-24,Male,Phoenix,8.95,High (7-10h),2.88,15,0.98,3.14,3.1,7.22,Productivity,13.6,43.5,42.9,0,1,Check
+990,27,25-34,Male,Phoenix,12.15,Very high (10h+),11.43,4,1.19,4.15,1.7,7.04,Productivity,16.9,58.9,24.1,0,0,Consistent
+991,50,45-54,Male,New York,9.75,High (7-10h),5.9,5,1.5,2.08,4.28,7.86,Gaming,19.1,26.5,54.5,0,1,Check
+992,55,55+,Male,New York,6.31,Moderate (4-7h),9.68,24,3.21,1.29,2.17,6.67,Social,48.1,19.3,32.5,1,0,Check
+993,30,25-34,Female,New York,12.51,Very high (10h+),8.04,10,3.0,4.34,0.96,8.3,Productivity,36.1,52.3,11.6,0,1,Check
+994,48,45-54,Female,Chicago,3.88,Light (<4h),8.44,26,3.48,3.35,0.96,7.79,Social,44.7,43.0,12.3,1,0,Check
+995,53,45-54,Male,Phoenix,10.29,Very high (10h+),2.45,17,1.81,2.24,3.84,7.89,Gaming,22.9,28.4,48.7,0,1,Check
+996,41,35-44,Female,Los Angeles,12.46,Very high (10h+),3.58,13,4.12,2.44,1.33,7.89,Social,52.2,30.9,16.9,0,1,Check
+997,32,25-34,Male,Los Angeles,10.51,Very high (10h+),9.65,11,1.02,1.02,3.84,5.88,Gaming,17.3,17.3,65.3,0,0,Consistent
+998,46,45-54,Female,Phoenix,10.06,Very high (10h+),11.68,9,2.35,3.13,1.03,6.51,Productivity,36.1,48.1,15.8,1,0,Check
+999,25,25-34,Male,Phoenix,10.78,Very high (10h+),3.89,15,4.0,1.79,1.61,7.4,Social,54.1,24.2,21.8,0,1,Check
+1000,22,18-24,Female,Phoenix,7.05,High (7-10h),3.99,4,0.9,4.98,2.33,8.21,Productivity,11.0,60.7,28.4,0,1,Check
