@@ -28,4 +28,4 @@ gaming apps.
 Python (Pandas), Power Query, DAX, Power BI
 
 ## Live dashboard
-[Open the dashboard](https://yourusername.github.io/data-portfolio/)
+[Open the dashboard](https://tushar841.github.io/data-portfolio/)
